@@ -1,21 +1,21 @@
 {
-  "name": "base-project",
+  "name": "amstk",
   "version": "0.0.0",
-  "description": "Base Project built with Gulp, Stylus and Handlebars",
+  "description": "Amanda Stockbridge - Website",
   "main": "index.html",
   "scripts": {
     "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Stockbridge/base-project.git"
+    "url": "git://github.com/Stockbridge/amstk.git"
   },
   "author": "Chris Stockbridge",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Stockbridge/base-project/issues"
+    "url": "https://github.com/Stockbridge/amstk/issues"
   },
-  "homepage": "https://github.com/Stockbridge/base-project",
+  "homepage": "https://github.com/Stockbridge/amstk",
   "devDependencies": {
     "gulp": "~3.9.0",
     "gulp-concat": "~2.6.0",

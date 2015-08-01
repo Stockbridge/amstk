@@ -15,7 +15,7 @@ gulp.task('templates', function(){
     .pipe(handlebars())
     .pipe(wrap('Handlebars.template(<%= contents %>)'))
     .pipe(declare({
-      namespace: 'Application.templates',
+      namespace: 'amstk.templates',
       noRedeclare: true, // Avoid duplicate declarations 
     }))
     .pipe(concat('templates.js'))
