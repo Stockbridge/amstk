@@ -1,6 +1,6 @@
-this["Application"] = this["Application"] || {};
-this["Application"]["templates"] = this["Application"]["templates"] || {};
-this["Application"]["templates"]["time"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+this["amstk"] = this["amstk"] || {};
+this["amstk"]["templates"] = this["amstk"]["templates"] || {};
+this["amstk"]["templates"]["time"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
     var helper;
 
   return "<div class=\"time\">"
