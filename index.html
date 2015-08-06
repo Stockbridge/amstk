@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <title>amstk</title>
     <link rel="stylesheet" href="dist/css/main.css">
-    <link href='http://fonts.googleapis.com/css?family=Raleway:700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:600,200' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <header>
-      <div class="logo"></div>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Gallery</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+    <header id="home" class="header full-width-container">
+      <div class="logo-container">
+        <span class="logo-large"></span>
+        <span class="logo-small"></span>  
+      </div>
+      <section class="title-container">
+        <h1 class="title">I am Amanda Stockbridge</h1>
+        <h2 class="subtitle">Graphic + Web + Creative | <strong>Design</strong></h2>
+        <nav id="nav" class="nav">
+          <span id="navMenuToggle" class="menu-toggle icon-menu"></span>
+          <ul id="navMenu" class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
-    <section id="home"></section>
-    <section id="gallery"></section>
-    <footer id="contact"></footer>
+    <section id="gallery" class="gallery">
+      <h1 class="title">Clients + Work</h1>
+    </section>
+    <footer id="contact" class="contact">
+      <div class="container">
+        <h1 class="title"><strong>Hey there</strong></h1>  
+      </div>
+    </footer>
     <!-- Script Links -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="libs/handlebars.runtime-v3.0.3.js"></script>
