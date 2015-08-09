@@ -11,46 +11,78 @@
     
   .gallery-row
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around
-  
+    align-items: stretch;
+    
   .gallery-item
-    width: 50%;
     text-align: center;
+    flex-grow: 1;
     
   .image-link
+    background-color: skyblue;
+    background-size: cover;
     display: block;
-    background: skyblue
-    height: 30px
+    height: 30rem;
+    opacity: .4;
+    transition: all .2s ease-out;
+    
+    &:hover
+      opacity: .8;
 
   .client-subtitle
     color: $middleGray
     padding: 1vh 0;
     
-      
+  .client-logo-container
+    padding: 4vh 1vw;
     
-  .row-one
-    height: 40vh
-  
-  .row-two
-    height: 40vh
-    
-    .item-one 
-      width: 25%
-    
-    .item-two
-      width: 75%
-      
-  .row-three
-    height: 30vh
-  
-  .row-four
-    height: 40vh
-      
-    .item-one, .item-three
-      width: 25%;
-    
-    .item-two
+  // row specific setup
+  .row-one, .row-three
+    .item-one, .item-two
       width: 50%;
+      
+  .row-two
+    .item-one 
+      flex-grow: 2;
+      
+      .image-link
+        height: 47rem
     
+    .item-two
+      flex-grow: 5;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    
+    .link-one
+      flex-grow: 5;
+      height: 29rem;
+    
+    .client-logo-container
+      flex-grow: 1;
+    
+    .link-two
+      height: 18rem;
+      width: 100%;
+      
+  .row-four
+    .item-two
+      flex-grow: 2;
+    
+
+// image classes
+.microsoft-ignite-image
+  background-image: url('../../assets/gallery/microsoft-thumb.png');
+.portfolio-image
+  background-image: url('../../assets/gallery/asenn-thumb.png');
+.frontier-image
+  background-image: url('../../assets/gallery/frontier-thumb.png');
+.alpha-miami-image
+  background-image: url('../../assets/gallery/mia-summit-thumb.png');
+.microsoft-device-image
+  background-image: url('../../assets/gallery/devices-thumb.png');
+.alpha-monoco-image
+  background-image: url('../../assets/gallery/-thumb.png');
+.events-image
+  background-image: url('../../assets/gallery/-thumb.png');
+.alpha-web-image
+  background-image: url('../../assets/gallery/-thumb.png');
