@@ -5,106 +5,55 @@
   max-width: 120rem;
   padding: 9vh 0 15vh;
   
-  .title
+  .title-container
     text-align: center;
     margin-bottom: 9vh;
     
-  .gallery-row
-    display: flex;
-    
-  .gallery-item
-    text-align: center;
-    flex-grow: 1;
-    
-  .image-link
-    background-color: skyblue;
-    background-size: cover;
-    display: block;
-    height: 30rem;
-    opacity: .4;
-    transition: all .2s ease-out;
-    
-    &:hover
-      opacity: .8;
+  .title
+    text-transform: uppercase;
 
-  .client-subtitle
-    color: $middleGray
-    padding: 1vh 0;
-    
-  .client-logo-container
-    padding: 5vh 1vw 3vh;
-    
-  // row specific setup
-  .row-one, .row-three
-    align-items: center;
-    
-    .item-one, .item-two
-      width: 50%;
+.gallery-row
+  display: flex;
   
-  .row-two, .row-four
-    align-items: stretch;
-
-  .row-two
-    .item-one 
-      flex-grow: 2;
-      
-      .image-link
-        height: 47rem
-    
-    .item-two
-      flex-grow: 5;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-    
-    .link-one
-      flex-grow: 5;
-      height: 29rem;
-    
-    .client-logo-container
-      flex-grow: 1;
-    
-    .link-two
-      height: 18rem;
-      width: 100%;
+.gallery-item
+  text-align: center;
+  flex-grow: 1;
   
-  .row-three
-    .client-logo-container
-      padding-top: 3vh;
-    .image-link
-      height: 21rem;
+.client-subtitle
+  color: $middleGray
+  padding: 1vh 0;
+  
+.client-logo-container
+  padding: 5vh 1vw 3vh;
 
-  .row-four
-    .item-one
-      .image-link
-        height: 15rem;
-        
-      .client-logo-container
-        padding: 2.5vh 1vw;
-        
-    .item-two
-      flex-grow: 2;
-      width: 50%;
-    
-    .item-three
-      .client-logo-container
-        padding: 11vh 1vw;
-    
+.image-link, .image-box
+  background-color: skyblue;
+  background-size: cover;
+  display: block;
+  height: 30rem;
 
-// image classes
-.microsoft-ignite-image
-  background-image: url('../../assets/gallery/microsoft-thumb.png');
-.portfolio-image
-  background-image: url('../../assets/gallery/asenn-thumb.png');
-.frontier-image
-  background-image: url('../../assets/gallery/frontier-thumb.png');
-.alpha-miami-image
-  background-image: url('../../assets/gallery/mia-summit-thumb.png');
-.microsoft-device-image
-  background-image: url('../../assets/gallery/devices-thumb.png');
-.alpha-monoco-image
-  background-image: url('../../assets/gallery/mon-summit-thumb.png');
-.events-image
-  background-image: url('../../assets/gallery/spevent-thumb.png');
-.alpha-web-image
-  background-image: url('../../assets/gallery/-thumb.png');
+.image-link
+  opacity: .4;
+  transition: all .2s ease-out;
+  
+  &:hover
+    opacity: .8;
+    
+.image-container
+  padding: 2rem;
+  
+  img
+    width: 100%;
+
+// patterns   
+.two-up
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .flex-item, .gallery-item
+    width: 50%;  
+    
+// page gallery customization
+@import 'galleries/main'
+@import 'galleries/ignite'

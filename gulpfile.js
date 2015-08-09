@@ -1,26 +1,9 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
-var handlebars = require('gulp-handlebars');
-var wrap = require('gulp-wrap');
-var declare = require('gulp-declare');
-var concat = require('gulp-concat');
 var stylus = require('gulp-stylus');
 var nib = require('nib');
 var del = require('del');
-
-// compile HBS templates to src/js
-gulp.task('templates', function () {
-  gulp.src('src/templates/**/*.hbs')
-    .pipe(handlebars())
-    .pipe(wrap('Handlebars.template(<%= contents %>)'))
-    .pipe(declare({
-      namespace: 'amstk.templates',
-      noRedeclare: true, // Avoid duplicate declarations 
-    }))
-    .pipe(concat('templates.js'))
-    .pipe(gulp.dest('src/js/'));
-});
 
 // clean dist folder
 gulp.task('clean', function () {
@@ -28,7 +11,7 @@ gulp.task('clean', function () {
 });
 
 // compile minified scripts
-gulp.task('scripts-build', ['templates'], function () {
+gulp.task('scripts-build', function () {
   return gulp.src('src/js/**/*.js')
     .pipe(uglify())
     .pipe(concat('main.js'))
@@ -36,7 +19,7 @@ gulp.task('scripts-build', ['templates'], function () {
 });
 
 // compile scripts
-gulp.task('scripts', ['templates'], function () {
+gulp.task('scripts', function () {
   return gulp.src('src/js/**/*.js')
     .pipe(concat('main.js'))
     .pipe(gulp.dest('dist/js'));

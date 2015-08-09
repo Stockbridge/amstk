@@ -11,18 +11,6 @@
     background-position: center center;
     background-size: cover;
     
-  .logo-large
-    background: url('../../assets/amstk_logo_lg.svg') no-repeat;
-    height: 20vh;
-    width: 40vh;
-    display: inline-block;
-    background-size: contain;
-    position: absolute;
-    top: 50%
-    left: 50%
-    margin-top: -11vh;
-    margin-left: -20vh;
-
   .title-container
     background: $mainColor;
     color: $white;
@@ -32,8 +20,32 @@
     bottom: 0;
     width: 100%;
 
-  .nav
-    position: absolute;
-    right: 0;
-    top: 0;
+.logo-large
+  background: url('../../assets/amstk-logo-lg.svg') no-repeat;
+  height: 20vh;
+  width: 40vh;
+  display: inline-block;
+  background-size: contain;
+  position: absolute;
+  top: 50%
+  left: 50%
+  margin-top: -11vh;
+  margin-left: -20vh;
+  
+.logo-small
+  background: url('../../assets/amstk-logo-sm.svg') no-repeat;
+  height: 6rem;
+  width: 13rem;
+  display: inline-block;
+  background-size: contain;
+
+.nav
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
     
+.sub-header
+  height: 9rem;
+  position: relative;
+  background: $mainColor;
