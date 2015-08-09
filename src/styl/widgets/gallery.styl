@@ -3,7 +3,7 @@
   width: 100%;
   margin: 0 auto;
   max-width: 120rem;
-  padding: 9vh 0;
+  padding: 9vh 0 15vh;
   
   .title
     text-align: center;
@@ -11,7 +11,6 @@
     
   .gallery-row
     display: flex;
-    align-items: stretch;
     
   .gallery-item
     text-align: center;
@@ -33,13 +32,18 @@
     padding: 1vh 0;
     
   .client-logo-container
-    padding: 4vh 1vw;
+    padding: 5vh 1vw 3vh;
     
   // row specific setup
   .row-one, .row-three
+    align-items: center;
+    
     .item-one, .item-two
       width: 50%;
-      
+  
+  .row-two, .row-four
+    align-items: stretch;
+
   .row-two
     .item-one 
       flex-grow: 2;
@@ -63,10 +67,28 @@
     .link-two
       height: 18rem;
       width: 100%;
-      
+  
+  .row-three
+    .client-logo-container
+      padding-top: 3vh;
+    .image-link
+      height: 21rem;
+
   .row-four
+    .item-one
+      .image-link
+        height: 15rem;
+        
+      .client-logo-container
+        padding: 2.5vh 1vw;
+        
     .item-two
       flex-grow: 2;
+      width: 50%;
+    
+    .item-three
+      .client-logo-container
+        padding: 11vh 1vw;
     
 
 // image classes
@@ -81,8 +103,8 @@
 .microsoft-device-image
   background-image: url('../../assets/gallery/devices-thumb.png');
 .alpha-monoco-image
-  background-image: url('../../assets/gallery/-thumb.png');
+  background-image: url('../../assets/gallery/mon-summit-thumb.png');
 .events-image
-  background-image: url('../../assets/gallery/-thumb.png');
+  background-image: url('../../assets/gallery/spevent-thumb.png');
 .alpha-web-image
   background-image: url('../../assets/gallery/-thumb.png');
