@@ -5,7 +5,7 @@
 
 /* line 14 : /Users/stocky/Clients/Stocky/amstk/node_modules/gulp-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 58 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/index.styl */
+/* line 70 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/index.styl */
 
 /* line 10 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/index.styl */
 
@@ -25,7 +25,7 @@
 
 /* line 90 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/flex.styl */
 
-/* line 58 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/gradients.styl */
+/* line 70 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/gradients.styl */
 
 /* line 11 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/gradients.styl */
 
@@ -41,7 +41,7 @@
 
 /* line 19 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/image.styl */
 
-/* line 58 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/normalize/index.styl */
+/* line 70 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/normalize/index.styl */
 
 /* line 8 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/normalize/index.styl */
 
@@ -89,7 +89,7 @@
 
 /* line 5 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/reset.styl */
 
-/* line 58 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/text/index.styl */
+/* line 70 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/text/index.styl */
 
 /* line 12 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/text/index.styl */
 
@@ -514,9 +514,9 @@ button {
   padding: 1.5rem;
 }
 
-/* line 92 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 93 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 
-/* line 32 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 58 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .gallery {
@@ -872,7 +872,8 @@ button {
 
 /* line 69 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .alpha-web-image {
-  background-image: url("../../assets/gallery/-thumb.png");
+  background-image: url("../../assets/gallery/alpha-web-thumb.png");
+  background-position: center;
 }
 
 /* line 11 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
@@ -1161,9 +1162,34 @@ button {
   background-position: center;
 }
 
-/* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
+/* line 15 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 
-/* line 34 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
+/* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+
+/* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+.alpha-web-mobile-image {
+  background-image: url("../../assets/alpha-web/alpha-web-mobile.png");
+  height: 65rem;
+  background-position: center;
+}
+
+/* line 8 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+.alpha-web-booklet-image {
+  background-image: url("../../assets/alpha-web/alpha-web-booklet.png");
+  height: 43rem;
+  background-position: center;
+}
+
+/* line 12 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+.alpha-web-touch-image {
+  background-image: url("../../assets/alpha-web/alpha-web-touch.png");
+  height: 65rem;
+  background-position: center;
+}
+
+/* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+
+/* line 15 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 .contact {
@@ -1173,7 +1199,7 @@ button {
   -moz-background-size: cover;
   background-size: cover;
   color: #fff;
-  min-height: 50vh;
+  min-height: 20vh;
   text-shadow: 0 0 10px rgba(6,16,51,0.8);
 }
 
