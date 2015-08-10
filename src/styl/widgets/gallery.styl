@@ -7,13 +7,14 @@
   
   .title-container
     text-align: center;
-    margin-bottom: 9vh;
+    margin-bottom: 6vh;
     
   .title
     text-transform: uppercase;
 
 .gallery-row
   display: flex;
+  padding: 2vh 0;
   
 .gallery-item
   text-align: center;
@@ -39,21 +40,47 @@
   &:hover
     opacity: .8;
     
-.image-container
-  padding: 2rem;
+.image-container, .image-box
+  padding: 2vh 2vw;
   
   img
     width: 100%;
 
-// patterns   
-.two-up
+// patterns
+.two-up, .three-up
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 
+.two-up
   .flex-item, .gallery-item
-    width: 50%;  
+    width: 50%;
+  
+  .image-container
+    &:nth-of-type(even)
+      padding-right: 0
+    &:nth-of-type(odd)
+      padding-left: 0
+
+.three-up
+  .flex-item, .gallery-item
+    width: 33%;
+    
+    &:nth-child(1) .image-container
+      padding-left: 0
+      
+    &:nth-child(2) .image-container
+      padding-left: .75vw
+      padding-right: .75vw
+      
+    &:nth-child(3) .image-container
+      padding-right: 0
     
 // page gallery customization
 @import 'galleries/main'
 @import 'galleries/ignite'
+@import 'galleries/frontier'
+@import 'galleries/portfolio'
+@import 'galleries/device'
+@import 'galleries/miami'
+@import 'galleries/monaco'
