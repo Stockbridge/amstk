@@ -12,14 +12,17 @@
     background-size: cover;
     
   .title-container
-    background: $mainColor;
     color: $white;
-    text-align: center;
-    padding: 3vh;
+    background: $mainColor;
     position: absolute;
     bottom: 0;
     width: 100%;
-
+  
+    
+.title-container
+  text-align: center;
+  padding: 3vh;
+  
 .logo-large
   background: url('../../assets/amstk-logo-lg.svg') no-repeat;
   height: 20vh;
@@ -49,3 +52,7 @@
   height: 9rem;
   position: relative;
   background: $mainColor;
+  color: $white;
+
+  .title-container
+    padding: 1.5rem;

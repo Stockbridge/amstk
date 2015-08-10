@@ -56,6 +56,11 @@
   .flex-item, .gallery-item
     width: 50%;
   
+    &:nth-of-type(even)
+      padding-left: 1vw
+    &:nth-of-type(odd)
+      padding-right: 1vw
+  
   .image-container
     &:nth-of-type(even)
       padding-right: 0
@@ -84,3 +89,4 @@
 @import 'galleries/device'
 @import 'galleries/miami'
 @import 'galleries/monaco'
+@import 'galleries/events'
