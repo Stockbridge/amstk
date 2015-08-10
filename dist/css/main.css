@@ -230,9 +230,9 @@ a img {
 
 /* line 2 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/variables.styl */
 
-/* line 67 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/variables.styl */
+/* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/variables.styl */
 
-/* line 6 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/framework.styl */
+/* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/framework.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/framework.styl */
 * {
@@ -262,13 +262,13 @@ strong {
 
 /* line 17 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/framework.styl */
 h1 {
-  font-size: 3.2rem;
+  font-size: 2.6rem;
   padding: 1vh;
 }
 
 /* line 21 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/framework.styl */
 h2 {
-  font-size: 2.6rem;
+  font-size: 1.8rem;
   padding: 1vh;
 }
 
