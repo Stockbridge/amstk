@@ -5,7 +5,7 @@
 
 /* line 14 : /Users/stocky/Clients/Stocky/amstk/node_modules/gulp-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 32 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/index.styl */
+/* line 117 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/index.styl */
 
 /* line 10 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/index.styl */
 
@@ -25,7 +25,7 @@
 
 /* line 90 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/flex.styl */
 
-/* line 32 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/gradients.styl */
+/* line 117 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/gradients.styl */
 
 /* line 11 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/gradients.styl */
 
@@ -41,7 +41,7 @@
 
 /* line 19 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/image.styl */
 
-/* line 32 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/normalize/index.styl */
+/* line 117 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/normalize/index.styl */
 
 /* line 8 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/normalize/index.styl */
 
@@ -89,7 +89,7 @@
 
 /* line 5 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/reset.styl */
 
-/* line 32 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/text/index.styl */
+/* line 117 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/text/index.styl */
 
 /* line 12 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/text/index.styl */
 
@@ -514,9 +514,9 @@ button {
   padding: 1.5rem;
 }
 
-/* line 93 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 117 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 
-/* line 58 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 117 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .gallery {
@@ -588,6 +588,8 @@ button {
   opacity: 0.4;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
   filter: alpha(opacity=40);
+  overflow: hidden;
+  position: relative;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
@@ -595,26 +597,65 @@ button {
   transition: all 0.2s ease-out;
 }
 
-/* line 40 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
-.image-link:hover {
-  opacity: 0.8;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  filter: alpha(opacity=80);
+/* line 42 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.image-link .hover-title,
+.image-link .hover-title-text {
+  position: absolute;
+  left: 0;
+  width: 100%;
 }
 
-/* line 43 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 47 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.image-link .hover-title {
+  background: rgba(6,16,51,0.5);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  height: 100%;
+  top: 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+/* line 54 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.image-link .hover-title-text {
+  top: 50%;
+  font-size: 3rem;
+  margin-top: -1.5rem;
+  text-align: center;
+  text-shadow: 0 0 5px #061033;
+}
+
+/* line 61 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.image-link:hover {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* line 63 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.image-link:hover .hover-title {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* line 67 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .image-container,
 .image-box {
   padding: 2vh 2vw;
 }
 
-/* line 46 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 70 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .image-container img,
 .image-box img {
   width: 100%;
 }
 
-/* line 50 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 74 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up,
 .three-up {
   display: -webkit-box;
@@ -637,60 +678,60 @@ button {
   flex-wrap: wrap;
 }
 
-/* line 55 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 79 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
-/* line 56 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 80 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .flex-item,
 .two-up .gallery-item {
   width: 50%;
 }
 
-/* line 59 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 83 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .flex-item:nth-of-type(even),
 .two-up .gallery-item:nth-of-type(even) {
   padding-left: 1vw;
 }
 
-/* line 61 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 85 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .flex-item:nth-of-type(odd),
 .two-up .gallery-item:nth-of-type(odd) {
   padding-right: 1vw;
 }
 
-/* line 64 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 88 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
-/* line 65 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 89 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .image-container:nth-of-type(even) {
   padding-right: 0;
 }
 
-/* line 67 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 91 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .image-container:nth-of-type(odd) {
   padding-left: 0;
 }
 
-/* line 70 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 94 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
-/* line 71 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 95 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .three-up .flex-item,
 .three-up .gallery-item {
   width: 33%;
 }
 
-/* line 74 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 98 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .three-up .flex-item:nth-child(1) .image-container,
 .three-up .gallery-item:nth-child(1) .image-container {
   padding-left: 0;
 }
 
-/* line 77 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 101 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .three-up .flex-item:nth-child(2) .image-container,
 .three-up .gallery-item:nth-child(2) .image-container {
   padding-left: 0.75vw;
   padding-right: 0.75vw;
 }
 
-/* line 81 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 105 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .three-up .flex-item:nth-child(3) .image-container,
 .three-up .gallery-item:nth-child(3) .image-container {
   padding-right: 0;
@@ -1243,7 +1284,7 @@ button {
   margin-right: 4vw;
 }
 
-/* line 32 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
+/* line 12 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 
 /* line 32 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/footer.styl */
 
