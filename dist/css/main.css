@@ -5,7 +5,7 @@
 
 /* line 14 : /Users/stocky/Clients/Stocky/amstk/node_modules/gulp-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 33 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/index.styl */
+/* line 32 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/index.styl */
 
 /* line 10 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/index.styl */
 
@@ -25,7 +25,7 @@
 
 /* line 90 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/flex.styl */
 
-/* line 33 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/gradients.styl */
+/* line 32 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/gradients.styl */
 
 /* line 11 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/gradients.styl */
 
@@ -41,7 +41,7 @@
 
 /* line 19 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/image.styl */
 
-/* line 33 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/normalize/index.styl */
+/* line 32 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/normalize/index.styl */
 
 /* line 8 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/normalize/index.styl */
 
@@ -89,7 +89,7 @@
 
 /* line 5 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/reset.styl */
 
-/* line 33 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/text/index.styl */
+/* line 32 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/text/index.styl */
 
 /* line 12 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/text/index.styl */
 
@@ -230,9 +230,9 @@ a img {
 
 /* line 2 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/variables.styl */
 
-/* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/variables.styl */
+/* line 67 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/variables.styl */
 
-/* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/framework.styl */
+/* line 6 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/framework.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/framework.styl */
 * {
@@ -430,7 +430,7 @@ button {
 
 /* line 58 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/fonts.styl */
 
-/* line 58 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 61 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 .header {
@@ -523,7 +523,7 @@ button {
   min-height: 100vh;
   width: 100%;
   margin: 0 auto;
-  max-width: 120rem;
+  max-width: 110rem;
   padding: 9vh 0 15vh;
 }
 
@@ -883,14 +883,14 @@ button {
 /* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/ignite.styl */
 .ignite-devops-image {
   background-image: url("../../assets/ignite/ignite-devops.png");
-  height: 65rem;
+  height: 60rem;
   background-position: center;
 }
 
 /* line 8 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/ignite.styl */
 .ignite-flier-image {
   background-image: url("../../assets/ignite/ignite-flier.png");
-  height: 65rem;
+  height: 60rem;
   background-position: center;
 }
 
@@ -920,14 +920,14 @@ button {
 /* line 13 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/frontier.styl */
 .frontier-desktop-image {
   background-image: url("../../assets/frontier/frontier-desktop.png");
-  height: 65rem;
-  background-position: center;
+  height: 60rem;
+  background-position: top;
 }
 
 /* line 17 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/frontier.styl */
 .frontier-veterans-image {
   background-image: url("../../assets/frontier/frontier-veterans.png");
-  height: 65rem;
+  height: 55rem;
   background-position: center;
 }
 
@@ -938,21 +938,21 @@ button {
 /* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/portfolio.styl */
 .portfolio-desktop-image {
   background-image: url("../../assets/portfolio/portfolio-desktop.png");
-  height: 65rem;
+  height: 60rem;
   background-position: center;
 }
 
 /* line 8 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/portfolio.styl */
 .portfolio-booklet-image {
   background-image: url("../../assets/portfolio/portfolio-booklet.png");
-  height: 43rem;
+  height: 40rem;
   background-position: center;
 }
 
 /* line 12 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/portfolio.styl */
 .portfolio-touch-image {
   background-image: url("../../assets/portfolio/portfolio-touch.png");
-  height: 65rem;
+  height: 60rem;
   background-position: center;
 }
 
@@ -963,15 +963,15 @@ button {
 /* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
 .device-desktop-image {
   background-image: url("../../assets/device/device-desktop.png");
-  height: 65rem;
+  height: 50rem;
   background-position: bottom;
 }
 
 /* line 8 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
 .device-desktop-two-image {
   background-image: url("../../assets/device/device-desktop-02.png");
-  height: 65rem;
-  background-position: center;
+  height: 60rem;
+  background-position: bottom;
 }
 
 /* line 12 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
@@ -1017,14 +1017,14 @@ button {
 /* line 13 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-desktop-image {
   background-image: url("../../assets/miami/miami-desktop.png");
-  height: 65rem;
+  height: 60rem;
   background-position: bottom;
 }
 
 /* line 17 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-booklet-image {
   background-image: url("../../assets/miami/miami-booklet.png");
-  height: 80rem;
+  height: 60rem;
   background-position: center;
 }
 
@@ -1038,14 +1038,14 @@ button {
 /* line 25 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-signage-image {
   background-image: url("../../assets/miami/miami-signage.png");
-  height: 40rem;
+  height: 35rem;
   background-position: center;
 }
 
 /* line 29 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-signage-two-image {
   background-image: url("../../assets/miami/miami-signage-02.png");
-  height: 40rem;
+  height: 35rem;
   background-position: center;
 }
 
@@ -1078,31 +1078,31 @@ button {
 /* line 13 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
 .monaco-touch-image {
   background-image: url("../../assets/monaco/monaco-touch.png");
-  height: 65rem;
+  height: 45rem;
 }
 
 /* line 16 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
 .monaco-mobile-image {
   background-image: url("../../assets/monaco/monaco-mobile.png");
-  height: 50rem;
-  background-position: center;
+  height: 45rem;
+  background-position: top;
 }
 
 /* line 20 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
 .monaco-signage-image {
   background-image: url("../../assets/monaco/monaco-signage.png");
-  height: 40rem;
+  height: 30rem;
   background-position: center;
 }
 
 /* line 24 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
 .monaco-signage-two-image {
   background-image: url("../../assets/monaco/monaco-signage-02.png");
-  height: 40rem;
+  height: 30rem;
   background-position: center;
 }
 
-/* line 31 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
+/* line 32 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 
@@ -1131,34 +1131,35 @@ button {
 /* line 13 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 .events-invite-image {
   background-image: url("../../assets/events/events-invite.png");
-  height: 65rem;
+  height: 60rem;
+  background-position: center;
 }
 
-/* line 16 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
+/* line 17 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 .events-wedding-image {
   background-image: url("../../assets/events/events-wedding.png");
   height: 40rem;
   background-position: center;
 }
 
-/* line 20 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
+/* line 21 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 .events-wedding-two-image {
   background-image: url("../../assets/events/events-wedding-02.png");
   height: 40rem;
   background-position: center;
 }
 
-/* line 24 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
+/* line 25 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 .events-touch-image {
   background-image: url("../../assets/events/events-touch.png");
-  height: 60rem;
+  height: 50rem;
   background-position: center;
 }
 
-/* line 28 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
+/* line 29 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 .events-bag-image {
   background-image: url("../../assets/events/events-bag.png");
-  height: 60rem;
+  height: 50rem;
   background-position: center;
 }
 
@@ -1169,7 +1170,7 @@ button {
 /* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 .alpha-web-mobile-image {
   background-image: url("../../assets/alpha-web/alpha-web-mobile.png");
-  height: 65rem;
+  height: 55rem;
   background-position: center;
 }
 
@@ -1183,13 +1184,13 @@ button {
 /* line 12 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 .alpha-web-touch-image {
   background-image: url("../../assets/alpha-web/alpha-web-touch.png");
-  height: 65rem;
-  background-position: center;
+  height: 50rem;
+  background-position: bottom;
 }
 
 /* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 
-/* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
+/* line 15 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 .contact {
@@ -1242,9 +1243,9 @@ button {
   margin-right: 4vw;
 }
 
-/* line 12 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
+/* line 32 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 
-/* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/footer.styl */
+/* line 32 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/footer.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/footer.styl */
 
@@ -1268,7 +1269,7 @@ button {
 /* line 7 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/footer.styl */
 .footer-nav .footer-nav-link {
   color: #4a4a4a;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 /* line 11 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/footer.styl */
