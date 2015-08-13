@@ -5,7 +5,7 @@
 
 /* line 14 : /Users/stocky/Clients/Stocky/amstk/node_modules/gulp-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 117 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/index.styl */
+/* line 12 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/index.styl */
 
 /* line 10 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/index.styl */
 
@@ -25,7 +25,7 @@
 
 /* line 90 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/flex.styl */
 
-/* line 117 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/gradients.styl */
+/* line 12 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/gradients.styl */
 
 /* line 11 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/gradients.styl */
 
@@ -41,7 +41,7 @@
 
 /* line 19 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/image.styl */
 
-/* line 117 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/normalize/index.styl */
+/* line 12 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/normalize/index.styl */
 
 /* line 8 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/normalize/index.styl */
 
@@ -89,7 +89,7 @@
 
 /* line 5 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/reset.styl */
 
-/* line 117 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/text/index.styl */
+/* line 12 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/text/index.styl */
 
 /* line 12 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/text/index.styl */
 
@@ -226,13 +226,13 @@ a img {
   border: none;
 }
 
-/* line 6 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/size.styl */
+/* line 12 : /Users/stocky/Clients/Stocky/amstk/node_modules/nib/lib/nib/size.styl */
 
 /* line 2 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/variables.styl */
 
 /* line 67 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/variables.styl */
 
-/* line 6 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/framework.styl */
+/* line 12 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/framework.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/framework.styl */
 * {
@@ -514,9 +514,9 @@ button {
   padding: 1.5rem;
 }
 
-/* line 117 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 156 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 
-/* line 117 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .gallery {
@@ -643,19 +643,19 @@ button {
   filter: none;
 }
 
-/* line 67 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 66 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .image-container,
 .image-box {
   padding: 2vh 2vw;
 }
 
-/* line 70 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 69 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .image-container img,
 .image-box img {
   width: 100%;
 }
 
-/* line 74 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 73 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up,
 .three-up {
   display: -webkit-box;
@@ -678,63 +678,203 @@ button {
   flex-wrap: wrap;
 }
 
-/* line 79 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 78 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
-/* line 80 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 79 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .flex-item,
 .two-up .gallery-item {
   width: 50%;
 }
 
-/* line 83 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 82 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .flex-item:nth-of-type(even),
 .two-up .gallery-item:nth-of-type(even) {
   padding-left: 1vw;
 }
 
-/* line 85 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 84 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .flex-item:nth-of-type(odd),
 .two-up .gallery-item:nth-of-type(odd) {
   padding-right: 1vw;
 }
 
-/* line 88 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 87 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
-/* line 89 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 88 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .image-container:nth-of-type(even) {
   padding-right: 0;
 }
 
-/* line 91 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 90 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .image-container:nth-of-type(odd) {
   padding-left: 0;
 }
 
-/* line 94 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 93 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.two-up.shift-right {
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -o-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
 
-/* line 95 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 96 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+
+/* line 97 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.two-up.shift-right .flex-item:nth-of-type(odd),
+.two-up.shift-right .gallery-item:nth-of-type(odd) {
+  width: 55%;
+}
+
+/* line 99 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.two-up.shift-right .flex-item:nth-of-type(even),
+.two-up.shift-right .gallery-item:nth-of-type(even) {
+  width: 45%;
+}
+
+/* line 102 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.two-up.shift-righter {
+  -ms-flex-line-pack: stretch;
+  -webkit-align-content: stretch;
+  align-content: stretch;
+}
+
+/* line 105 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+
+/* line 106 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.two-up.shift-righter .flex-item:nth-of-type(odd),
+.two-up.shift-righter .gallery-item:nth-of-type(odd) {
+  width: 60.5%;
+}
+
+/* line 108 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.two-up.shift-righter .flex-item:nth-of-type(even),
+.two-up.shift-righter .gallery-item:nth-of-type(even) {
+  width: 39.5%;
+}
+
+/* line 111 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+
+/* line 112 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .three-up .flex-item,
 .three-up .gallery-item {
   width: 33%;
 }
 
-/* line 98 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 115 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .three-up .flex-item:nth-child(1) .image-container,
 .three-up .gallery-item:nth-child(1) .image-container {
   padding-left: 0;
 }
 
-/* line 101 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 118 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .three-up .flex-item:nth-child(2) .image-container,
 .three-up .gallery-item:nth-child(2) .image-container {
   padding-left: 0.75vw;
   padding-right: 0.75vw;
 }
 
-/* line 105 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 122 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .three-up .flex-item:nth-child(3) .image-container,
 .three-up .gallery-item:nth-child(3) .image-container {
   padding-right: 0;
+}
+@media screen and (max-device-width: 480px) {
+
+/* line 127 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+
+/* line 128 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+  .two-up .flex-item,
+  .two-up.shift-right .flex-item,
+  .two-up.shift-righter .flex-item,
+  .three-up .flex-item,
+  .two-up .gallery-item,
+  .two-up.shift-right .gallery-item,
+  .two-up.shift-righter .gallery-item,
+  .three-up .gallery-item {
+    width: 100%;
+    padding: 2vh 0;
+  }
+
+/* line 132 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+  .two-up .flex-item:first-of-type,
+  .two-up.shift-right .flex-item:first-of-type,
+  .two-up.shift-righter .flex-item:first-of-type,
+  .three-up .flex-item:first-of-type,
+  .two-up .gallery-item:first-of-type,
+  .two-up.shift-right .gallery-item:first-of-type,
+  .two-up.shift-righter .gallery-item:first-of-type,
+  .three-up .gallery-item:first-of-type {
+    padding-top: 0;
+  }
+
+/* line 135 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+  .two-up .flex-item:last-of-type,
+  .two-up.shift-right .flex-item:last-of-type,
+  .two-up.shift-righter .flex-item:last-of-type,
+  .three-up .flex-item:last-of-type,
+  .two-up .gallery-item:last-of-type,
+  .two-up.shift-right .gallery-item:last-of-type,
+  .two-up.shift-righter .gallery-item:last-of-type,
+  .three-up .gallery-item:last-of-type {
+    padding-bottom: 0;
+  }
+
+/* line 138 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+  .two-up .flex-item:nth-of-type(even),
+  .two-up.shift-right .flex-item:nth-of-type(even),
+  .two-up.shift-righter .flex-item:nth-of-type(even),
+  .three-up .flex-item:nth-of-type(even),
+  .two-up .gallery-item:nth-of-type(even),
+  .two-up.shift-right .gallery-item:nth-of-type(even),
+  .two-up.shift-righter .gallery-item:nth-of-type(even),
+  .three-up .gallery-item:nth-of-type(even),
+  .two-up .flex-item:nth-of-type(odd),
+  .two-up.shift-right .flex-item:nth-of-type(odd),
+  .two-up.shift-righter .flex-item:nth-of-type(odd),
+  .three-up .flex-item:nth-of-type(odd),
+  .two-up .gallery-item:nth-of-type(odd),
+  .two-up.shift-right .gallery-item:nth-of-type(odd),
+  .two-up.shift-righter .gallery-item:nth-of-type(odd),
+  .three-up .gallery-item:nth-of-type(odd),
+  .two-up .flex-item .image-container,
+  .two-up.shift-right .flex-item .image-container,
+  .two-up.shift-righter .flex-item .image-container,
+  .three-up .flex-item .image-container,
+  .two-up .gallery-item .image-container,
+  .two-up.shift-right .gallery-item .image-container,
+  .two-up.shift-righter .gallery-item .image-container,
+  .three-up .gallery-item .image-container,
+  .two-up .flex-item:nth-child(1) .image-container,
+  .two-up.shift-right .flex-item:nth-child(1) .image-container,
+  .two-up.shift-righter .flex-item:nth-child(1) .image-container,
+  .three-up .flex-item:nth-child(1) .image-container,
+  .two-up .gallery-item:nth-child(1) .image-container,
+  .two-up.shift-right .gallery-item:nth-child(1) .image-container,
+  .two-up.shift-righter .gallery-item:nth-child(1) .image-container,
+  .three-up .gallery-item:nth-child(1) .image-container,
+  .two-up .flex-item:nth-child(2) .image-container,
+  .two-up.shift-right .flex-item:nth-child(2) .image-container,
+  .two-up.shift-righter .flex-item:nth-child(2) .image-container,
+  .three-up .flex-item:nth-child(2) .image-container,
+  .two-up .gallery-item:nth-child(2) .image-container,
+  .two-up.shift-right .gallery-item:nth-child(2) .image-container,
+  .two-up.shift-righter .gallery-item:nth-child(2) .image-container,
+  .three-up .gallery-item:nth-child(2) .image-container,
+  .two-up .flex-item:nth-child(3) .image-container,
+  .two-up.shift-right .flex-item:nth-child(3) .image-container,
+  .two-up.shift-righter .flex-item:nth-child(3) .image-container,
+  .three-up .flex-item:nth-child(3) .image-container,
+  .two-up .gallery-item:nth-child(3) .image-container,
+  .two-up.shift-right .gallery-item:nth-child(3) .image-container,
+  .two-up.shift-righter .gallery-item:nth-child(3) .image-container,
+  .three-up .gallery-item:nth-child(3) .image-container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 /* line 71 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
@@ -917,321 +1057,264 @@ button {
   background-position: center;
 }
 
-/* line 11 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 13 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/ignite.styl */
 
 /* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/ignite.styl */
 .ignite-devops-image {
   background-image: url("../../assets/ignite/ignite-devops.png");
-  height: 60rem;
+  max-height: 60rem;
+  height: 80vw;
   background-position: center;
 }
 
-/* line 8 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/ignite.styl */
+/* line 9 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/ignite.styl */
 .ignite-flier-image {
   background-image: url("../../assets/ignite/ignite-flier.png");
-  height: 60rem;
+  max-height: 60rem;
+  height: 80vw;
   background-position: center;
 }
 
-/* line 20 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/ignite.styl */
-
-/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/frontier.styl */
+/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/ignite.styl */
 
 /* line 2 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/frontier.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/frontier.styl */
-#gallery-frontier .row-three {
-  -ms-flex-line-pack: stretch;
-  -webkit-align-content: stretch;
-  align-content: stretch;
-}
-
-/* line 6 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/frontier.styl */
-#gallery-frontier .flex-item {
-  width: 60.5%;
-}
-
-/* line 9 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/frontier.styl */
-#gallery-frontier .flex-item:nth-of-type(even) {
-  width: 39.5%;
-}
-
-/* line 13 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/frontier.styl */
 .frontier-desktop-image {
   background-image: url("../../assets/frontier/frontier-desktop.png");
-  height: 60rem;
+  max-height: 60rem;
+  height: 100vw;
   background-position: top;
 }
 
-/* line 17 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/frontier.styl */
+/* line 8 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/frontier.styl */
 .frontier-veterans-image {
   background-image: url("../../assets/frontier/frontier-veterans.png");
-  height: 55rem;
+  max-height: 55rem;
+  height: 50vw;
   background-position: center;
 }
 
-/* line 15 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/frontier.styl */
+/* line 18 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/frontier.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/portfolio.styl */
 
 /* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/portfolio.styl */
 .portfolio-desktop-image {
   background-image: url("../../assets/portfolio/portfolio-desktop.png");
-  height: 60rem;
+  max-height: 60rem;
+  height: 80vw;
   background-position: center;
 }
 
-/* line 8 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/portfolio.styl */
+/* line 9 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/portfolio.styl */
 .portfolio-booklet-image {
   background-image: url("../../assets/portfolio/portfolio-booklet.png");
-  height: 40rem;
+  max-height: 40rem;
+  height: 65vw;
   background-position: center;
 }
 
-/* line 12 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/portfolio.styl */
+/* line 14 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/portfolio.styl */
 .portfolio-touch-image {
   background-image: url("../../assets/portfolio/portfolio-touch.png");
-  height: 60rem;
+  max-height: 60rem;
+  height: 80vw;
   background-position: center;
 }
 
-/* line 19 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/portfolio.styl */
+/* line 23 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/portfolio.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
 
 /* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
 .device-desktop-image {
   background-image: url("../../assets/device/device-desktop.png");
-  height: 50rem;
+  max-height: 50rem;
+  height: 45vw;
   background-position: bottom;
 }
 
-/* line 8 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
+/* line 9 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
 .device-desktop-two-image {
   background-image: url("../../assets/device/device-desktop-02.png");
-  height: 60rem;
+  max-height: 60rem;
+  height: 60vw;
   background-position: bottom;
 }
 
-/* line 12 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
+/* line 14 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
 .device-slide-image {
   background-image: url("../../assets/device/device-slide.png");
-  height: 30rem;
+  max-height: 30rem;
+  height: 55vw;
   background-position: center;
 }
 
-/* line 16 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
+/* line 19 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
 .device-slide-two-image {
   background-image: url("../../assets/device/device-slide-02.png");
-  height: 30rem;
+  max-height: 30rem;
+  height: 55vw;
   background-position: center;
 }
 
-/* line 32 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
-
-/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
-
-/* line 2 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+/* line 28 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
-#gallery-miami .row-three.two-up {
-  -webkit-box-align: start;
-  -moz-box-align: start;
-  -o-box-align: start;
-  -ms-flex-align: start;
-  -webkit-align-items: flex-start;
-  align-items: flex-start;
-}
 
-/* line 6 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
-#gallery-miami .row-three.two-up .gallery-item:nth-of-type(odd) {
-  width: 55%;
+/* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+.miami-desktop-image {
+  background-image: url("../../assets/miami/miami-desktop.png");
+  max-height: 60rem;
+  height: 100vw;
+  background-position: bottom;
 }
 
 /* line 9 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
-#gallery-miami .row-three.two-up .gallery-item:nth-of-type(even) {
-  width: 45%;
-}
-
-/* line 13 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
-.miami-desktop-image {
-  background-image: url("../../assets/miami/miami-desktop.png");
-  height: 60rem;
-  background-position: bottom;
-}
-
-/* line 17 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-booklet-image {
   background-image: url("../../assets/miami/miami-booklet.png");
-  height: 60rem;
+  max-height: 60rem;
+  height: 60vw;
   background-position: center;
 }
 
-/* line 21 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+/* line 14 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-mobile-image {
   background-image: url("../../assets/miami/miami-mobile.png");
-  height: 60rem;
+  max-height: 60rem;
+  height: 100vw;
   background-position: center;
 }
 
-/* line 25 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+/* line 19 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-signage-image {
   background-image: url("../../assets/miami/miami-signage.png");
-  height: 35rem;
+  max-height: 35rem;
+  height: 55vw;
   background-position: center;
 }
 
-/* line 29 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+/* line 24 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-signage-two-image {
   background-image: url("../../assets/miami/miami-signage-02.png");
-  height: 35rem;
+  max-height: 35rem;
+  height: 55vw;
   background-position: center;
 }
 
-/* line 27 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
-
-/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
-
-/* line 2 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
+/* line 22 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
-#gallery-monaco .row-three.two-up {
-  -webkit-box-align: start;
-  -moz-box-align: start;
-  -o-box-align: start;
-  -ms-flex-align: start;
-  -webkit-align-items: flex-start;
-  align-items: flex-start;
-}
 
-/* line 6 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
-#gallery-monaco .row-three.two-up .gallery-item:nth-of-type(odd) {
-  width: 55%;
-}
-
-/* line 9 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
-#gallery-monaco .row-three.two-up .gallery-item:nth-of-type(even) {
-  width: 45%;
-}
-
-/* line 13 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
+/* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
 .monaco-touch-image {
   background-image: url("../../assets/monaco/monaco-touch.png");
-  height: 45rem;
+  max-height: 45rem;
+  height: 80vw;
 }
 
-/* line 16 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
+/* line 8 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
 .monaco-mobile-image {
   background-image: url("../../assets/monaco/monaco-mobile.png");
-  height: 45rem;
+  max-height: 45rem;
+  height: 70vw;
   background-position: top;
 }
 
-/* line 20 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
+/* line 13 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
 .monaco-signage-image {
   background-image: url("../../assets/monaco/monaco-signage.png");
-  height: 30rem;
+  max-height: 30rem;
+  height: 40vw;
   background-position: center;
 }
 
-/* line 24 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
+/* line 18 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
 .monaco-signage-two-image {
   background-image: url("../../assets/monaco/monaco-signage-02.png");
-  height: 30rem;
+  max-height: 30rem;
+  height: 40vw;
   background-position: center;
 }
 
-/* line 32 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
-
-/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
-
-/* line 2 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
+/* line 28 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
-#gallery-events .row-three.two-up {
-  -webkit-box-align: start;
-  -moz-box-align: start;
-  -o-box-align: start;
-  -ms-flex-align: start;
-  -webkit-align-items: flex-start;
-  align-items: flex-start;
-}
 
-/* line 6 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
-#gallery-events .row-three.two-up .gallery-item:nth-of-type(odd) {
-  width: 55%;
+/* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
+.events-invite-image {
+  background-image: url("../../assets/events/events-invite.png");
+  max-height: 60rem;
+  height: 90vw;
+  background-position: center;
 }
 
 /* line 9 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
-#gallery-events .row-three.two-up .gallery-item:nth-of-type(even) {
-  width: 45%;
-}
-
-/* line 13 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
-.events-invite-image {
-  background-image: url("../../assets/events/events-invite.png");
-  height: 60rem;
-  background-position: center;
-}
-
-/* line 17 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 .events-wedding-image {
   background-image: url("../../assets/events/events-wedding.png");
-  height: 40rem;
+  max-height: 40rem;
+  height: 70vw;
   background-position: center;
 }
 
-/* line 21 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
+/* line 14 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 .events-wedding-two-image {
   background-image: url("../../assets/events/events-wedding-02.png");
-  height: 40rem;
+  max-height: 40rem;
+  height: 70vw;
   background-position: center;
 }
 
-/* line 25 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
+/* line 19 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 .events-touch-image {
   background-image: url("../../assets/events/events-touch.png");
-  height: 50rem;
+  max-height: 50rem;
+  height: 100vw;
   background-position: center;
 }
 
-/* line 29 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
+/* line 24 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 .events-bag-image {
   background-image: url("../../assets/events/events-bag.png");
-  height: 50rem;
+  max-height: 50rem;
+  height: 100vw;
   background-position: center;
 }
 
-/* line 15 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
+/* line 18 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 
 /* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 .alpha-web-mobile-image {
   background-image: url("../../assets/alpha-web/alpha-web-mobile.png");
-  height: 55rem;
+  max-height: 55rem;
+  height: 60vw;
   background-position: center;
 }
 
-/* line 8 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+/* line 9 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 .alpha-web-booklet-image {
   background-image: url("../../assets/alpha-web/alpha-web-booklet.png");
-  height: 43rem;
+  max-height: 45rem;
+  height: 70vw;
   background-position: center;
 }
 
-/* line 12 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+/* line 14 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 .alpha-web-touch-image {
   background-image: url("../../assets/alpha-web/alpha-web-touch.png");
-  height: 50rem;
+  max-height: 50rem;
+  height: 80vw;
   background-position: bottom;
 }
 
 /* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 
-/* line 15 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
+/* line 18 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 .contact {
@@ -1286,7 +1369,7 @@ button {
 
 /* line 12 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 
-/* line 32 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/footer.styl */
+/* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/footer.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/footer.styl */
 
