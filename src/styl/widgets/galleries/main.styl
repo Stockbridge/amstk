@@ -46,6 +46,34 @@
       .client-logo-container
         padding: 11vh 1vw;
 
+@media $mediaSmall
+  #gallery-main
+    .row-one
+      .item-one 
+        order: 2
+      .item-two 
+        order: 1
+    
+    .row-two
+      flex-wrap: wrap;
+      
+      .item-one, .item-two
+        width: 100%
+        flex-grow: 1;
+      
+      .link-one, .link-two, .client-logo-container
+        flex-grow: 1;
+        width: 100%;
+    
+    .row-four
+      flex-wrap: wrap;
+      
+      .item-one, .item-two, .item-three
+        flex-grow: 1;
+        width: 100%;
+        
+        
+
 // image classes
 .microsoft-ignite-image
   background-image: url('../../assets/gallery/microsoft-thumb.png');

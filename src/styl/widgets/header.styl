@@ -4,7 +4,7 @@
   position: relative;
 
   .logo-container
-    height: 85%;
+    height: 90vh;
     text-align: center;
     position: relative;
     background: url('../../assets/header-bg.png') no-repeat;
@@ -49,10 +49,18 @@
   display: none;
     
 .sub-header
-  height: 9rem;
   position: relative;
   background: $mainColor;
   color: $white;
 
   .title-container
     padding: 1.5rem;
+
+@media $mediaSmall
+  .logo-small
+    height: 5rem;
+    width: 10rem;
+  
+  .title-container
+    padding: 1rem;
+    
