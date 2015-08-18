@@ -42,6 +42,11 @@
       flex-grow: 2;
       width: 50%;
     
+    .item-three
+      display: flex;
+      align-items: flex-end;
+      flex-wrap: wrap;
+    
 @media $mediaMedium
   #gallery-main
     .row-one
@@ -67,6 +72,9 @@
       .item-one, .item-two, .item-three
         flex-grow: 1;
         width: 100%;
+    
+    .item-three .client-logo-container
+      width: 100%;
 
 // image classes
 .microsoft-ignite-image
@@ -93,8 +101,9 @@
   background-image: url('../../assets/gallery/hortonworks-thumb.png');
   max-height: 20rem;
   height: 100vh;
+  width: 100%;
 .alpha-web-image
   background-image: url('../../assets/gallery/alpha-web-thumb.png');
-  max-height: 35rem;
+  max-height: 37rem;
   height: 100vh;
   background-position: center;

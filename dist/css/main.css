@@ -709,13 +709,13 @@ button {
 /* line 82 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .flex-item:nth-of-type(even),
 .two-up .gallery-item:nth-of-type(even) {
-  padding-left: 1vw;
+  padding-left: 1.5vw;
 }
 
 /* line 84 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .flex-item:nth-of-type(odd),
 .two-up .gallery-item:nth-of-type(odd) {
-  padding-right: 1vw;
+  padding-right: 1.5vw;
 }
 
 /* line 87 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
@@ -897,7 +897,7 @@ button {
   }
 }
 
-/* line 100 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
@@ -1024,13 +1024,35 @@ button {
   flex-grow: 2;
   width: 50%;
 }
+
+/* line 45 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+#gallery-main .row-four .item-three {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: end;
+  -moz-box-align: end;
+  -o-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
 @media screen and (max-width: 768px) {
 
-/* line 46 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 51 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
-/* line 47 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 52 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
-/* line 48 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 53 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-one .item-one {
     -webkit-box-ordinal-group: 2;
     -moz-box-ordinal-group: 2;
@@ -1040,7 +1062,7 @@ button {
     order: 2;
   }
 
-/* line 50 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 55 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-one .item-two {
     -webkit-box-ordinal-group: 1;
     -moz-box-ordinal-group: 1;
@@ -1050,7 +1072,7 @@ button {
     order: 1;
   }
 
-/* line 53 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 58 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-two {
     -webkit-box-lines: multiple;
     -moz-box-lines: multiple;
@@ -1060,7 +1082,7 @@ button {
     flex-wrap: wrap;
   }
 
-/* line 56 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 61 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-two .item-one,
   #gallery-main .row-two .item-two {
     width: 100%;
@@ -1073,7 +1095,7 @@ button {
     flex-grow: 1;
   }
 
-/* line 60 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 65 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-two .link-one,
   #gallery-main .row-two .link-two,
   #gallery-main .row-two .client-logo-container {
@@ -1087,7 +1109,7 @@ button {
     width: 100%;
   }
 
-/* line 64 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 69 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-four {
     -webkit-box-lines: multiple;
     -moz-box-lines: multiple;
@@ -1097,7 +1119,7 @@ button {
     flex-wrap: wrap;
   }
 
-/* line 67 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 72 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-four .item-one,
   #gallery-main .row-four .item-two,
   #gallery-main .row-four .item-three {
@@ -1110,60 +1132,66 @@ button {
     flex-grow: 1;
     width: 100%;
   }
+
+/* line 76 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+  #gallery-main .item-three .client-logo-container {
+    width: 100%;
+  }
 }
 
-/* line 72 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 80 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .microsoft-ignite-image {
   background-image: url("../../assets/gallery/microsoft-thumb.png");
 }
 
-/* line 74 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 82 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .portfolio-image {
   background-image: url("../../assets/gallery/asenn-thumb.png");
 }
 
-/* line 76 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 84 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .frontier-image {
   background-image: url("../../assets/gallery/frontier-thumb.png");
   height: 47rem;
 }
 
-/* line 79 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 87 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .alpha-miami-image {
   background-image: url("../../assets/gallery/mia-summit-thumb.png");
   height: 29rem;
 }
 
-/* line 82 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 90 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .microsoft-device-image {
   background-image: url("../../assets/gallery/devices-thumb.png");
   height: 18rem;
 }
 
-/* line 85 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 93 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .alpha-monoco-image {
   background-image: url("../../assets/gallery/mon-summit-thumb.png");
   height: 21rem;
 }
 
-/* line 88 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 96 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .events-image {
   background-image: url("../../assets/gallery/spevent-thumb.png");
   max-height: 20rem;
   height: 100vh;
 }
 
-/* line 92 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 100 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .hortonworks-image {
   background-image: url("../../assets/gallery/hortonworks-thumb.png");
   max-height: 20rem;
   height: 100vh;
+  width: 100%;
 }
 
-/* line 96 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 105 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .alpha-web-image {
   background-image: url("../../assets/gallery/alpha-web-thumb.png");
-  max-height: 35rem;
+  max-height: 37rem;
   height: 100vh;
   background-position: center;
 }
@@ -1272,19 +1300,31 @@ button {
   background-position: center;
 }
 
-/* line 28 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
+/* line 37 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/device.styl */
+
+/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+
+/* line 2 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+#gallery-miami .row-three {
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -o-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
 
-/* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+/* line 7 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-desktop-image {
   background-image: url("../../assets/miami/miami-desktop.png");
-  max-height: 60rem;
+  max-height: 80rem;
   height: 100vw;
   background-position: bottom;
 }
 
-/* line 9 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+/* line 12 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-booklet-image {
   background-image: url("../../assets/miami/miami-booklet.png");
   max-height: 60rem;
@@ -1292,15 +1332,16 @@ button {
   background-position: center;
 }
 
-/* line 14 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+/* line 17 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-mobile-image {
   background-image: url("../../assets/miami/miami-mobile.png");
-  max-height: 60rem;
+  max-height: 39.15rem;
   height: 100vw;
   background-position: center;
+  margin-bottom: 2vh;
 }
 
-/* line 19 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+/* line 23 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-signage-image {
   background-image: url("../../assets/miami/miami-signage.png");
   max-height: 35rem;
@@ -1308,11 +1349,19 @@ button {
   background-position: center;
 }
 
-/* line 24 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+/* line 28 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 .miami-signage-two-image {
   background-image: url("../../assets/miami/miami-signage-02.png");
   max-height: 35rem;
   height: 55vw;
+  background-position: center;
+}
+
+/* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+.miami-banner-image {
+  background-image: url("../../assets/miami/miami-banner.png");
+  max-height: 39.15rem;
+  height: 100vw;
   background-position: center;
 }
 
@@ -1403,19 +1452,27 @@ button {
   background-position: center;
 }
 
-/* line 18 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
+/* line 23 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/events.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 
 /* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 .alpha-web-mobile-image {
   background-image: url("../../assets/alpha-web/alpha-web-mobile.png");
-  max-height: 55rem;
+  max-height: 45rem;
   height: 60vw;
   background-position: center;
 }
 
 /* line 9 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+.alpha-web-banner-image {
+  background-image: url("../../assets/alpha-web/alpha-web-banner.png");
+  max-height: 45rem;
+  height: 60vw;
+  background-position: center;
+}
+
+/* line 14 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 .alpha-web-booklet-image {
   background-image: url("../../assets/alpha-web/alpha-web-booklet.png");
   max-height: 45rem;
@@ -1423,7 +1480,7 @@ button {
   background-position: center;
 }
 
-/* line 14 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+/* line 19 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 .alpha-web-touch-image {
   background-image: url("../../assets/alpha-web/alpha-web-touch.png");
   max-height: 50rem;
@@ -1431,7 +1488,7 @@ button {
   background-position: bottom;
 }
 
-/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+/* line 28 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
 
