@@ -34,7 +34,7 @@
       padding-top: 3vh;
 
   .row-four
-    .item-one
+    .item-one, .item-three
       .client-logo-container
         padding: 2.5vh 1vw;
         
@@ -42,11 +42,7 @@
       flex-grow: 2;
       width: 50%;
     
-    .item-three
-      .client-logo-container
-        padding: 11vh 1vw;
-
-@media $mediaSmall
+@media $mediaMedium
   #gallery-main
     .row-one
       .item-one 
@@ -71,8 +67,6 @@
       .item-one, .item-two, .item-three
         flex-grow: 1;
         width: 100%;
-        
-        
 
 // image classes
 .microsoft-ignite-image
@@ -93,7 +87,14 @@
   height: 21rem;
 .events-image
   background-image: url('../../assets/gallery/spevent-thumb.png');
-  height: 15rem;
+  max-height: 20rem;
+  height: 100vh;
+.hortonworks-image
+  background-image: url('../../assets/gallery/hortonworks-thumb.png');
+  max-height: 20rem;
+  height: 100vh;
 .alpha-web-image
   background-image: url('../../assets/gallery/alpha-web-thumb.png');
+  max-height: 35rem;
+  height: 100vh;
   background-position: center;

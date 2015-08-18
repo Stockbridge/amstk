@@ -341,7 +341,7 @@ button {
   max-width: 1200px;
   margin: 0 auto;
 }
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
 
 /* line 71 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/framework.styl */
   html {
@@ -435,7 +435,7 @@ button {
   content: "\e603";
 }
 
-/* line 65 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/fonts.styl */
+/* line 66 : /Users/stocky/Clients/Stocky/amstk/src/styl/base/fonts.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 
@@ -449,6 +449,7 @@ button {
 /* line 6 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 .header .logo-container {
   height: 90vh;
+  max-height: 100%;
   text-align: center;
   position: relative;
   background: url("../../assets/header-bg.png") no-repeat;
@@ -458,7 +459,7 @@ button {
   background-size: cover;
 }
 
-/* line 14 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 15 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 .header .title-container {
   color: #fff;
   background: #70cd9d;
@@ -467,13 +468,13 @@ button {
   width: 100%;
 }
 
-/* line 22 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 23 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 .title-container {
   text-align: center;
   padding: 3vh;
 }
 
-/* line 26 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 27 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 .logo-large {
   background: url("../../assets/amstk-logo-lg.svg") no-repeat;
   height: 20vh;
@@ -489,7 +490,7 @@ button {
   margin-left: -20vh;
 }
 
-/* line 38 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 39 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 .logo-small {
   background: url("../../assets/amstk-logo-sm.svg") no-repeat;
   height: 6rem;
@@ -500,7 +501,7 @@ button {
   background-size: contain;
 }
 
-/* line 45 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 46 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 .nav {
   position: absolute;
   right: 0;
@@ -508,32 +509,32 @@ button {
   display: none;
 }
 
-/* line 51 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 52 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 .sub-header {
   position: relative;
   background: #70cd9d;
   color: #fff;
 }
 
-/* line 56 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 57 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 .sub-header .title-container {
   padding: 1.5rem;
 }
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
 
-/* line 60 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 61 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
   .logo-small {
     height: 5rem;
     width: 10rem;
   }
 
-/* line 64 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 65 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
   .title-container {
     padding: 1rem;
   }
 }
 
-/* line 156 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 157 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
@@ -800,7 +801,7 @@ button {
 .three-up .gallery-item:nth-child(3) .image-container {
   padding-right: 0;
 }
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
 
 /* line 127 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
@@ -896,7 +897,7 @@ button {
   }
 }
 
-/* line 99 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 100 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
@@ -1007,7 +1008,8 @@ button {
 /* line 37 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
 /* line 38 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
-#gallery-main .row-four .item-one .client-logo-container {
+#gallery-main .row-four .item-one .client-logo-container,
+#gallery-main .row-four .item-three .client-logo-container {
   padding: 2.5vh 1vw;
 }
 
@@ -1022,20 +1024,13 @@ button {
   flex-grow: 2;
   width: 50%;
 }
-
-/* line 45 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+@media screen and (max-width: 768px) {
 
 /* line 46 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
-#gallery-main .row-four .item-three .client-logo-container {
-  padding: 11vh 1vw;
-}
-@media screen and (max-device-width: 480px) {
 
-/* line 50 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 47 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
-/* line 51 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
-
-/* line 52 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 48 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-one .item-one {
     -webkit-box-ordinal-group: 2;
     -moz-box-ordinal-group: 2;
@@ -1045,7 +1040,7 @@ button {
     order: 2;
   }
 
-/* line 54 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 50 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-one .item-two {
     -webkit-box-ordinal-group: 1;
     -moz-box-ordinal-group: 1;
@@ -1055,7 +1050,7 @@ button {
     order: 1;
   }
 
-/* line 57 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 53 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-two {
     -webkit-box-lines: multiple;
     -moz-box-lines: multiple;
@@ -1065,7 +1060,7 @@ button {
     flex-wrap: wrap;
   }
 
-/* line 60 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 56 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-two .item-one,
   #gallery-main .row-two .item-two {
     width: 100%;
@@ -1078,7 +1073,7 @@ button {
     flex-grow: 1;
   }
 
-/* line 64 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 60 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-two .link-one,
   #gallery-main .row-two .link-two,
   #gallery-main .row-two .client-logo-container {
@@ -1092,7 +1087,7 @@ button {
     width: 100%;
   }
 
-/* line 68 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 64 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-four {
     -webkit-box-lines: multiple;
     -moz-box-lines: multiple;
@@ -1102,7 +1097,7 @@ button {
     flex-wrap: wrap;
   }
 
-/* line 71 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 67 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-four .item-one,
   #gallery-main .row-four .item-two,
   #gallery-main .row-four .item-three {
@@ -1117,49 +1112,59 @@ button {
   }
 }
 
-/* line 78 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 72 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .microsoft-ignite-image {
   background-image: url("../../assets/gallery/microsoft-thumb.png");
 }
 
-/* line 80 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 74 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .portfolio-image {
   background-image: url("../../assets/gallery/asenn-thumb.png");
 }
 
-/* line 82 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 76 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .frontier-image {
   background-image: url("../../assets/gallery/frontier-thumb.png");
   height: 47rem;
 }
 
-/* line 85 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 79 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .alpha-miami-image {
   background-image: url("../../assets/gallery/mia-summit-thumb.png");
   height: 29rem;
 }
 
-/* line 88 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 82 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .microsoft-device-image {
   background-image: url("../../assets/gallery/devices-thumb.png");
   height: 18rem;
 }
 
-/* line 91 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 85 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .alpha-monoco-image {
   background-image: url("../../assets/gallery/mon-summit-thumb.png");
   height: 21rem;
 }
 
-/* line 94 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 88 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .events-image {
   background-image: url("../../assets/gallery/spevent-thumb.png");
-  height: 15rem;
+  max-height: 20rem;
+  height: 100vh;
 }
 
-/* line 97 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 92 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+.hortonworks-image {
+  background-image: url("../../assets/gallery/hortonworks-thumb.png");
+  max-height: 20rem;
+  height: 100vh;
+}
+
+/* line 96 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .alpha-web-image {
   background-image: url("../../assets/gallery/alpha-web-thumb.png");
+  max-height: 35rem;
+  height: 100vh;
   background-position: center;
 }
 
@@ -1311,7 +1316,7 @@ button {
   background-position: center;
 }
 
-/* line 22 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
+/* line 27 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/miami.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
 
@@ -1343,6 +1348,14 @@ button {
   background-image: url("../../assets/monaco/monaco-signage-02.png");
   max-height: 30rem;
   height: 40vw;
+  background-position: center;
+}
+
+/* line 23 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/monaco.styl */
+.monaco-banner-image {
+  background-image: url("../../assets/monaco/monaco-banner.png");
+  max-height: 25rem;
+  height: 50vw;
   background-position: center;
 }
 
@@ -1418,7 +1431,51 @@ button {
   background-position: bottom;
 }
 
-/* line 38 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+
+/* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
+
+/* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
+.hortonworks-desktop-image {
+  background-image: url("../../assets/hortonworks/hortonworks-desktop.png");
+  max-height: 70rem;
+  height: 90vw;
+  background-position: center;
+}
+
+/* line 9 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
+.hortonworks-slide-image {
+  background-image: url("../../assets/hortonworks/hortonworks-slide.png");
+  max-height: 40rem;
+  height: 70vw;
+  background-position: center;
+}
+
+/* line 14 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
+.hortonworks-slide-two-image {
+  background-image: url("../../assets/hortonworks/hortonworks-slide-02.png");
+  max-height: 40rem;
+  height: 70vw;
+  background-position: center;
+}
+
+/* line 19 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
+.hortonworks-touch-image {
+  background-image: url("../../assets/hortonworks/hortonworks-touch.png");
+  max-height: 50rem;
+  height: 100vw;
+  background-position: bottom;
+}
+
+/* line 24 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
+.hortonworks-mobile-image {
+  background-image: url("../../assets/hortonworks/hortonworks-mobile.png");
+  max-height: 50rem;
+  height: 100vw;
+  background-position: center;
+}
+
+/* line 38 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 
@@ -1472,7 +1529,7 @@ button {
 .contact .link-list .link-item:not(:last-child) {
   margin-right: 4vw;
 }
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
 
 /* line 36 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 
