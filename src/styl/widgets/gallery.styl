@@ -34,38 +34,39 @@
   height: 30rem;
 
 .image-link
-  opacity: .4;
+  opacity: .6;
   overflow: hidden
   position: relative;
   transition: all .2s ease-out;
-  
+
   .hover-title, .hover-title-text
     position: absolute;
     left: 0;
     width: 100%;
-    
+
   .hover-title
     background: rgba($black, .5);
     transition: all .2s ease-out;
     height: 100%;
     top: 0;
     opacity: 0;
-  
+
   .hover-title-text
     top: 50%;
     font-size: 3rem;
     margin-top: -1.5rem;
     text-align: center;
     text-shadow: 0 0 5px $black;
-  
+
   &:hover
     opacity: 1;
+
     .hover-title
-      opacity: 1;    
-    
+      opacity: 1;
+
 .image-container, .image-box
   padding: 2vh 2vw;
-  
+
   img
     width: 100%;
 
@@ -78,30 +79,30 @@
 .two-up
   .flex-item, .gallery-item
     width: 50%;
-  
+
     &:nth-of-type(even)
       padding-left: 1.5vw
     &:nth-of-type(odd)
       padding-right: 1.5vw
-  
+
   .image-container
     &:nth-of-type(even)
       padding-right: 0
     &:nth-of-type(odd)
       padding-left: 0
-      
+
   &.shift-right
     align-items: flex-start;
-    
+
     .flex-item, .gallery-item
       &:nth-of-type(odd)
         width: 55%
       &:nth-of-type(even)
         width: 45%
-  
+
   &.shift-righter
     align-content: stretch;
-    
+
     .flex-item, .gallery-item
       &:nth-of-type(odd)
         width: 60.5%
@@ -129,11 +130,11 @@
       width: 100%;
       padding: 2vh 0;
       
-      &:first-of-type 
-        padding-top: 0
+      &:first-of-type
+        padding-top: 0;
 
       &:last-of-type
-        padding-bottom: 0
+        padding-bottom: 0;
       
       &:nth-of-type(even), &:nth-of-type(odd), .image-container,
       &:nth-child(1) .image-container, &:nth-child(2) .image-container,
@@ -142,8 +143,6 @@
         padding-right: 0
         padding-left: 0
 
-
-    
 // page gallery customization
 @import 'galleries/main'
 @import 'galleries/ignite'

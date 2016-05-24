@@ -2,16 +2,26 @@
 #gallery-main
   .gallery-row
     padding: 0
-    
-  .two-up 
+
+  .two-up
     .gallery-item, .flex-item
       padding: 0;
-  
+
+  .row-one .gallery-item-container
+    .item-three, .flex-item
+      flex-grow: 0
+
+    .item-three
+      width: 48.5%
+
+    .flex-item
+      width: 51.5%
+
   .row-two, .row-four
     align-items: stretch;
 
   .row-two
-    .item-one 
+    .item-one
       flex-grow: 2;
 
     .item-two
@@ -19,68 +29,83 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-    
+
     .link-one
       flex-grow: 5;
-    
+
     .client-logo-container
       flex-grow: 1;
-    
+
     .link-two
       width: 100%;
-  
+
   .row-three
     .client-logo-container
       padding-top: 3vh;
 
   .row-four
-    .item-one, .item-three
-      .client-logo-container
-        padding: 2.5vh 1vw;
-        
+    .item-one .client-logo-container
+      padding: 4.5vh 2vw;
+
+    .item-three .client-logo-container
+      padding: 2.5vh 1vw;
+
     .item-two
       flex-grow: 2;
       width: 50%;
-    
+
     .item-three
       display: flex;
       align-items: flex-end;
       flex-wrap: wrap;
-    
+      
 @media $mediaMedium
   #gallery-main
     .row-one
-      .item-one 
-        order: 2
-      .item-two 
-        order: 1
-    
+      .item-one, .item-two
+        flex-grow: 1;
+        width: 100%
+
     .row-two
       flex-wrap: wrap;
-      
+
       .item-one, .item-two
         width: 100%
         flex-grow: 1;
-      
+
       .link-one, .link-two, .client-logo-container
         flex-grow: 1;
         width: 100%;
-    
+
     .row-four
       flex-wrap: wrap;
-      
+
       .item-one, .item-two, .item-three
         flex-grow: 1;
         width: 100%;
-    
+
     .item-three .client-logo-container
       width: 100%;
+
+@media $mediaSmall
+  #gallery-main
+    .row-one .gallery-item-container
+      .flex-item, .item-three
+        width: 100%
+      
+      .flex-item
+        padding 2vh 0
 
 // image classes
 .microsoft-ignite-image
   background-image: url('../../assets/gallery/microsoft-thumb.png');
-.portfolio-image
-  background-image: url('../../assets/gallery/asenn-thumb.png');
+.outerwall-image
+  background-image: url('../../assets/gallery/outerwall-thumb.png');
+  height: 33rem;
+.leadership-image
+  background-image: url('../../assets/gallery/leadership-thumb.png');
+  background-position: center;
+  height: 21rem;
 .frontier-image
   background-image: url('../../assets/gallery/frontier-thumb.png');
   height: 47rem;
@@ -97,8 +122,8 @@
   background-image: url('../../assets/gallery/spevent-thumb.png');
   max-height: 20rem;
   height: 100vh;
-.hortonworks-image
-  background-image: url('../../assets/gallery/hortonworks-thumb.png');
+.portfolio-image
+  background-image: url('../../assets/gallery/asenn-thumb.png');
   max-height: 20rem;
   height: 100vh;
   width: 100%;
