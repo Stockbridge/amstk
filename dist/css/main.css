@@ -1532,7 +1532,7 @@ button {
   background-position: bottom;
 }
 
-/* line 16 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/leadership.styl */
 
@@ -1547,15 +1547,15 @@ button {
 
 /* line 10 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/leadership.styl */
 .leadership-mockup-two-image {
-  background-image: url("../../assets/leadership/leadership-mockup-2.png");
+  background-image: url("../../assets/leadership/leadership-mockup-2.jpg");
   min-height: 30rem;
   max-height: 70rem;
   height: 50vw;
-  background-position: left;
+  background-position: center;
   width: 100%;
 }
 
-/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/leadership.styl */
+/* line 31 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/leadership.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/outerwall.styl */
 
@@ -1598,7 +1598,7 @@ button {
 
 /* line 38 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/outerwall.styl */
 
-/* line 28 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
+/* line 31 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 .contact {
