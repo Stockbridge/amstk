@@ -534,7 +534,7 @@ button {
   }
 }
 
-/* line 156 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 157 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
@@ -897,7 +897,7 @@ button {
   }
 }
 
-/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 134 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
@@ -1532,51 +1532,71 @@ button {
   background-position: bottom;
 }
 
-/* line 28 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+/* line 16 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 
-/* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
+/* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/leadership.styl */
 
-/* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
-.hortonworks-desktop-image {
-  background-image: url("../../assets/hortonworks/hortonworks-desktop.png");
+/* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/leadership.styl */
+.leadership-mockup-one-image {
+  background-image: url("../../assets/leadership/leadership-mockup-1.png");
   max-height: 70rem;
   height: 90vw;
   background-position: center;
+  width: 100%;
 }
 
-/* line 9 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
-.hortonworks-slide-image {
-  background-image: url("../../assets/hortonworks/hortonworks-slide.png");
-  max-height: 40rem;
+/* line 10 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/leadership.styl */
+.leadership-mockup-two-image {
+  background-image: url("../../assets/leadership/leadership-mockup-2.png");
+  min-height: 30rem;
+  max-height: 70rem;
+  height: 50vw;
+  background-position: left;
+  width: 100%;
+}
+
+/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/leadership.styl */
+
+/* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/outerwall.styl */
+
+/* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/outerwall.styl */
+.outerwall-desktop-image {
+  background-image: url("../../assets/outerwall/outr-web-1.png");
+  max-height: 70rem;
+  height: 90vw;
+  background-position: center;
+  width: 100%;
+}
+
+/* line 11 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/outerwall.styl */
+.outerwall-touch-image {
+  background-image: url("../../assets/outerwall/outr-web-3.png");
+  max-height: 50rem;
+  height: 90vw;
+  background-position: center;
+  width: 100%;
+}
+
+/* line 18 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/outerwall.styl */
+.outerwall-tablet-image {
+  background-image: url("../../assets/outerwall/outr-web-4.png");
+  max-height: 70rem;
+  min-height: 50rem;
   height: 70vw;
   background-position: center;
+  width: 100%;
 }
 
-/* line 14 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
-.hortonworks-slide-two-image {
-  background-image: url("../../assets/hortonworks/hortonworks-slide-02.png");
-  max-height: 40rem;
-  height: 70vw;
-  background-position: center;
-}
-
-/* line 19 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
-.hortonworks-touch-image {
-  background-image: url("../../assets/hortonworks/hortonworks-touch.png");
+/* line 26 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/outerwall.styl */
+.outerwall-web-image {
+  background-image: url("../../assets/outerwall/company-v-2.png");
   max-height: 50rem;
-  height: 100vw;
-  background-position: bottom;
-}
-
-/* line 24 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
-.hortonworks-mobile-image {
-  background-image: url("../../assets/hortonworks/hortonworks-mobile.png");
-  max-height: 50rem;
-  height: 100vw;
+  height: 90vw;
   background-position: center;
+  width: 100%;
 }
 
-/* line 38 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/hortonworks.styl */
+/* line 38 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/outerwall.styl */
 
 /* line 28 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 
