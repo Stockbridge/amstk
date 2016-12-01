@@ -534,7 +534,7 @@ button {
   }
 }
 
-/* line 157 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
+/* line 182 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/header.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
@@ -675,7 +675,12 @@ button {
   width: 100%;
 }
 
-/* line 74 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 73 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.flex-item img {
+  width: 100%;
+}
+
+/* line 77 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up,
 .three-up {
   display: -webkit-box;
@@ -698,39 +703,39 @@ button {
   flex-wrap: wrap;
 }
 
-/* line 79 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 82 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
-/* line 80 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 83 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .flex-item,
 .two-up .gallery-item {
   width: 50%;
 }
 
-/* line 83 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 86 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .flex-item:nth-of-type(even),
 .two-up .gallery-item:nth-of-type(even) {
   padding-left: 1.5vw;
 }
 
-/* line 85 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 88 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .flex-item:nth-of-type(odd),
 .two-up .gallery-item:nth-of-type(odd) {
   padding-right: 1.5vw;
 }
 
-/* line 88 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 91 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
-/* line 89 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 92 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .image-container:nth-of-type(even) {
   padding-right: 0;
 }
 
-/* line 91 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 94 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up .image-container:nth-of-type(odd) {
   padding-left: 0;
 }
 
-/* line 94 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 97 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up.shift-right {
   -webkit-box-align: start;
   -moz-box-align: start;
@@ -740,164 +745,248 @@ button {
   align-items: flex-start;
 }
 
-/* line 97 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 100 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
-/* line 98 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 101 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up.shift-right .flex-item:nth-of-type(odd),
 .two-up.shift-right .gallery-item:nth-of-type(odd) {
   width: 55%;
 }
 
-/* line 100 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 103 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up.shift-right .flex-item:nth-of-type(even),
 .two-up.shift-right .gallery-item:nth-of-type(even) {
   width: 45%;
 }
 
-/* line 103 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 106 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up.shift-righter {
   -ms-flex-line-pack: stretch;
   -webkit-align-content: stretch;
   align-content: stretch;
 }
 
-/* line 106 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 109 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
-/* line 107 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 110 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up.shift-righter .flex-item:nth-of-type(odd),
 .two-up.shift-righter .gallery-item:nth-of-type(odd) {
   width: 60.5%;
 }
 
-/* line 109 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 112 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .two-up.shift-righter .flex-item:nth-of-type(even),
 .two-up.shift-righter .gallery-item:nth-of-type(even) {
   width: 39.5%;
 }
 
-/* line 112 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 115 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.two-up.shift-left {
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -o-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
 
-/* line 113 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 118 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+
+/* line 119 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.two-up.shift-left .flex-item:nth-of-type(even),
+.two-up.shift-left .gallery-item:nth-of-type(even) {
+  width: 55%;
+}
+
+/* line 121 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.two-up.shift-left .flex-item:nth-of-type(odd),
+.two-up.shift-left .gallery-item:nth-of-type(odd) {
+  width: 45%;
+}
+
+/* line 124 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.two-up.shift-lefter {
+  -ms-flex-line-pack: stretch;
+  -webkit-align-content: stretch;
+  align-content: stretch;
+}
+
+/* line 127 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+
+/* line 128 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.two-up.shift-lefter .flex-item:nth-of-type(even),
+.two-up.shift-lefter .gallery-item:nth-of-type(even) {
+  width: 60.5%;
+}
+
+/* line 130 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+.two-up.shift-lefter .flex-item:nth-of-type(odd),
+.two-up.shift-lefter .gallery-item:nth-of-type(odd) {
+  width: 39.5%;
+}
+
+/* line 133 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+
+/* line 134 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .three-up .flex-item,
 .three-up .gallery-item {
   width: 33%;
+  -webkit-align-self: flex-start;
+  align-self: flex-start;
+  -ms-flex-item-align: start;
 }
 
-/* line 116 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 138 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .three-up .flex-item:nth-child(1) .image-container,
 .three-up .gallery-item:nth-child(1) .image-container {
   padding-left: 0;
 }
 
-/* line 119 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 141 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .three-up .flex-item:nth-child(2) .image-container,
 .three-up .gallery-item:nth-child(2) .image-container {
   padding-left: 0.75vw;
   padding-right: 0.75vw;
 }
 
-/* line 123 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 145 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 .three-up .flex-item:nth-child(3) .image-container,
 .three-up .gallery-item:nth-child(3) .image-container {
   padding-right: 0;
 }
 @media screen and (max-width: 480px) {
 
-/* line 128 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 150 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
-/* line 129 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 152 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
   .two-up .flex-item,
   .two-up.shift-right .flex-item,
   .two-up.shift-righter .flex-item,
   .three-up .flex-item,
+  .two-up.shift-left .flex-item,
+  .two-up.shift-lefter .flex-item,
   .two-up .gallery-item,
   .two-up.shift-right .gallery-item,
   .two-up.shift-righter .gallery-item,
-  .three-up .gallery-item {
+  .three-up .gallery-item,
+  .two-up.shift-left .gallery-item,
+  .two-up.shift-lefter .gallery-item {
     width: 100%;
     padding: 2vh 0;
   }
 
-/* line 133 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 156 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
   .two-up .flex-item:first-of-type,
   .two-up.shift-right .flex-item:first-of-type,
   .two-up.shift-righter .flex-item:first-of-type,
   .three-up .flex-item:first-of-type,
+  .two-up.shift-left .flex-item:first-of-type,
+  .two-up.shift-lefter .flex-item:first-of-type,
   .two-up .gallery-item:first-of-type,
   .two-up.shift-right .gallery-item:first-of-type,
   .two-up.shift-righter .gallery-item:first-of-type,
-  .three-up .gallery-item:first-of-type {
+  .three-up .gallery-item:first-of-type,
+  .two-up.shift-left .gallery-item:first-of-type,
+  .two-up.shift-lefter .gallery-item:first-of-type {
     padding-top: 0;
   }
 
-/* line 136 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 159 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
   .two-up .flex-item:last-of-type,
   .two-up.shift-right .flex-item:last-of-type,
   .two-up.shift-righter .flex-item:last-of-type,
   .three-up .flex-item:last-of-type,
+  .two-up.shift-left .flex-item:last-of-type,
+  .two-up.shift-lefter .flex-item:last-of-type,
   .two-up .gallery-item:last-of-type,
   .two-up.shift-right .gallery-item:last-of-type,
   .two-up.shift-righter .gallery-item:last-of-type,
-  .three-up .gallery-item:last-of-type {
+  .three-up .gallery-item:last-of-type,
+  .two-up.shift-left .gallery-item:last-of-type,
+  .two-up.shift-lefter .gallery-item:last-of-type {
     padding-bottom: 0;
   }
 
-/* line 139 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 162 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
   .two-up .flex-item:nth-of-type(even),
   .two-up.shift-right .flex-item:nth-of-type(even),
   .two-up.shift-righter .flex-item:nth-of-type(even),
   .three-up .flex-item:nth-of-type(even),
+  .two-up.shift-left .flex-item:nth-of-type(even),
+  .two-up.shift-lefter .flex-item:nth-of-type(even),
   .two-up .gallery-item:nth-of-type(even),
   .two-up.shift-right .gallery-item:nth-of-type(even),
   .two-up.shift-righter .gallery-item:nth-of-type(even),
   .three-up .gallery-item:nth-of-type(even),
+  .two-up.shift-left .gallery-item:nth-of-type(even),
+  .two-up.shift-lefter .gallery-item:nth-of-type(even),
   .two-up .flex-item:nth-of-type(odd),
   .two-up.shift-right .flex-item:nth-of-type(odd),
   .two-up.shift-righter .flex-item:nth-of-type(odd),
   .three-up .flex-item:nth-of-type(odd),
+  .two-up.shift-left .flex-item:nth-of-type(odd),
+  .two-up.shift-lefter .flex-item:nth-of-type(odd),
   .two-up .gallery-item:nth-of-type(odd),
   .two-up.shift-right .gallery-item:nth-of-type(odd),
   .two-up.shift-righter .gallery-item:nth-of-type(odd),
   .three-up .gallery-item:nth-of-type(odd),
+  .two-up.shift-left .gallery-item:nth-of-type(odd),
+  .two-up.shift-lefter .gallery-item:nth-of-type(odd),
   .two-up .flex-item .image-container,
   .two-up.shift-right .flex-item .image-container,
   .two-up.shift-righter .flex-item .image-container,
   .three-up .flex-item .image-container,
+  .two-up.shift-left .flex-item .image-container,
+  .two-up.shift-lefter .flex-item .image-container,
   .two-up .gallery-item .image-container,
   .two-up.shift-right .gallery-item .image-container,
   .two-up.shift-righter .gallery-item .image-container,
   .three-up .gallery-item .image-container,
+  .two-up.shift-left .gallery-item .image-container,
+  .two-up.shift-lefter .gallery-item .image-container,
   .two-up .flex-item:nth-child(1) .image-container,
   .two-up.shift-right .flex-item:nth-child(1) .image-container,
   .two-up.shift-righter .flex-item:nth-child(1) .image-container,
   .three-up .flex-item:nth-child(1) .image-container,
+  .two-up.shift-left .flex-item:nth-child(1) .image-container,
+  .two-up.shift-lefter .flex-item:nth-child(1) .image-container,
   .two-up .gallery-item:nth-child(1) .image-container,
   .two-up.shift-right .gallery-item:nth-child(1) .image-container,
   .two-up.shift-righter .gallery-item:nth-child(1) .image-container,
   .three-up .gallery-item:nth-child(1) .image-container,
+  .two-up.shift-left .gallery-item:nth-child(1) .image-container,
+  .two-up.shift-lefter .gallery-item:nth-child(1) .image-container,
   .two-up .flex-item:nth-child(2) .image-container,
   .two-up.shift-right .flex-item:nth-child(2) .image-container,
   .two-up.shift-righter .flex-item:nth-child(2) .image-container,
   .three-up .flex-item:nth-child(2) .image-container,
+  .two-up.shift-left .flex-item:nth-child(2) .image-container,
+  .two-up.shift-lefter .flex-item:nth-child(2) .image-container,
   .two-up .gallery-item:nth-child(2) .image-container,
   .two-up.shift-right .gallery-item:nth-child(2) .image-container,
   .two-up.shift-righter .gallery-item:nth-child(2) .image-container,
   .three-up .gallery-item:nth-child(2) .image-container,
+  .two-up.shift-left .gallery-item:nth-child(2) .image-container,
+  .two-up.shift-lefter .gallery-item:nth-child(2) .image-container,
   .two-up .flex-item:nth-child(3) .image-container,
   .two-up.shift-right .flex-item:nth-child(3) .image-container,
   .two-up.shift-righter .flex-item:nth-child(3) .image-container,
   .three-up .flex-item:nth-child(3) .image-container,
+  .two-up.shift-left .flex-item:nth-child(3) .image-container,
+  .two-up.shift-lefter .flex-item:nth-child(3) .image-container,
   .two-up .gallery-item:nth-child(3) .image-container,
   .two-up.shift-right .gallery-item:nth-child(3) .image-container,
   .two-up.shift-righter .gallery-item:nth-child(3) .image-container,
-  .three-up .gallery-item:nth-child(3) .image-container {
+  .three-up .gallery-item:nth-child(3) .image-container,
+  .two-up.shift-left .gallery-item:nth-child(3) .image-container,
+  .two-up.shift-lefter .gallery-item:nth-child(3) .image-container {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
   }
 }
 
-/* line 134 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
+/* line 144 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/gallery.styl */
 
 /* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
@@ -994,6 +1083,11 @@ button {
 }
 
 /* line 33 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+#gallery-main .row-two .item-two .two-up {
+  width: 100%;
+}
+
+/* line 36 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 #gallery-main .row-two .link-one {
   -webkit-box-flex: 5;
   -moz-box-flex: 5;
@@ -1004,7 +1098,7 @@ button {
   flex-grow: 5;
 }
 
-/* line 36 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 39 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 #gallery-main .row-two .client-logo-container {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -1015,31 +1109,31 @@ button {
   flex-grow: 1;
 }
 
-/* line 39 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 42 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 #gallery-main .row-two .link-two {
   width: 100%;
 }
 
-/* line 42 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 45 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
-/* line 43 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 46 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 #gallery-main .row-three .client-logo-container {
   padding-top: 3vh;
 }
 
-/* line 46 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 49 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
-/* line 47 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 50 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 #gallery-main .row-four .item-one .client-logo-container {
   padding: 4.5vh 2vw;
 }
 
-/* line 50 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 53 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 #gallery-main .row-four .item-three .client-logo-container {
   padding: 2.5vh 1vw;
 }
 
-/* line 53 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 56 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 #gallery-main .row-four .item-two {
   -webkit-box-flex: 2;
   -moz-box-flex: 2;
@@ -1051,7 +1145,7 @@ button {
   width: 50%;
 }
 
-/* line 57 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 60 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 #gallery-main .row-four .item-three {
   display: -webkit-box;
   display: -moz-box;
@@ -1074,11 +1168,11 @@ button {
 }
 @media screen and (max-width: 768px) {
 
-/* line 63 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 66 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
-/* line 64 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 67 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
-/* line 65 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 68 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-one .item-one,
   #gallery-main .row-one .item-two {
     -webkit-box-flex: 1;
@@ -1091,7 +1185,7 @@ button {
     width: 100%;
   }
 
-/* line 69 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 72 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-two {
     -webkit-box-lines: multiple;
     -moz-box-lines: multiple;
@@ -1101,7 +1195,7 @@ button {
     flex-wrap: wrap;
   }
 
-/* line 72 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 75 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-two .item-one,
   #gallery-main .row-two .item-two {
     width: 100%;
@@ -1114,7 +1208,12 @@ button {
     flex-grow: 1;
   }
 
-/* line 76 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 79 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+  #gallery-main .row-two .item-two .two-up .gallery-item {
+    width: 100%;
+  }
+
+/* line 82 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-two .link-one,
   #gallery-main .row-two .link-two,
   #gallery-main .row-two .client-logo-container {
@@ -1128,7 +1227,7 @@ button {
     width: 100%;
   }
 
-/* line 80 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 86 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-four {
     -webkit-box-lines: multiple;
     -moz-box-lines: multiple;
@@ -1138,7 +1237,7 @@ button {
     flex-wrap: wrap;
   }
 
-/* line 83 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 89 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-four .item-one,
   #gallery-main .row-four .item-two,
   #gallery-main .row-four .item-three {
@@ -1152,87 +1251,94 @@ button {
     width: 100%;
   }
 
-/* line 87 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 93 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .item-three .client-logo-container {
     width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
 
-/* line 91 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 97 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
-/* line 92 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 98 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 
-/* line 93 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 99 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-one .gallery-item-container .flex-item,
   #gallery-main .row-one .gallery-item-container .item-three {
     width: 100%;
   }
 
-/* line 96 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 102 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
   #gallery-main .row-one .gallery-item-container .flex-item {
     padding: 2vh 0;
   }
 }
 
-/* line 100 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
-.microsoft-ignite-image {
-  background-image: url("../../assets/gallery/microsoft-thumb.png");
+/* line 106 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+.rei-image {
+  background-image: url("../../assets/gallery/rei.jpg");
 }
 
-/* line 102 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 108 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .outerwall-image {
   background-image: url("../../assets/gallery/outerwall-thumb.png");
   height: 33rem;
 }
 
-/* line 105 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 111 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .leadership-image {
   background-image: url("../../assets/gallery/leadership-thumb.png");
   background-position: center;
   height: 21rem;
 }
 
-/* line 109 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
-.frontier-image {
-  background-image: url("../../assets/gallery/frontier-thumb.png");
+/* line 115 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+.blue-nile-image {
+  background-image: url("../../assets/gallery/blue-nile.jpg");
   height: 47rem;
 }
 
-/* line 112 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 118 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .alpha-miami-image {
   background-image: url("../../assets/gallery/mia-summit-thumb.png");
   height: 29rem;
 }
 
-/* line 115 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 121 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .microsoft-device-image {
   background-image: url("../../assets/gallery/devices-thumb.png");
   height: 18rem;
 }
 
-/* line 118 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 124 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+.microsoft-ignite-image {
+  background-image: url("../../assets/gallery/mic-ignite.jpg");
+  height: 18rem;
+}
+
+/* line 127 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .alpha-monoco-image {
   background-image: url("../../assets/gallery/mon-summit-thumb.png");
   height: 21rem;
 }
 
-/* line 121 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 130 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .events-image {
   background-image: url("../../assets/gallery/spevent-thumb.png");
   max-height: 20rem;
   height: 100vh;
 }
 
-/* line 125 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
-.portfolio-image {
-  background-image: url("../../assets/gallery/asenn-thumb.png");
+/* line 134 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+.frontier-image {
+  background-image: url("../../assets/gallery/frontier-thumb.jpg");
+  background-position: right top;
   max-height: 20rem;
   height: 100vh;
   width: 100%;
 }
 
-/* line 130 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
+/* line 140 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/main.styl */
 .alpha-web-image {
   background-image: url("../../assets/gallery/alpha-web-thumb.png");
   max-height: 37rem;
@@ -1532,7 +1638,7 @@ button {
   background-position: bottom;
 }
 
-/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
+/* line 16 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/alpha-web.styl */
 
 /* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/leadership.styl */
 
@@ -1596,7 +1702,60 @@ button {
   width: 100%;
 }
 
-/* line 38 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/outerwall.styl */
+/* line 30 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/outerwall.styl */
+
+/* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/rei.styl */
+
+/* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/rei.styl */
+.fitbit-desktop-mock {
+  background-image: url("../../assets/rei/fitbit-mock-img.jpg");
+  max-height: 70rem;
+  height: 90vw;
+  background-position: center;
+  width: 100%;
+}
+
+/* line 11 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/rei.styl */
+.yeti-desktop-mock {
+  background-image: url("../../assets/rei/yeti-mock-img.jpg");
+  max-height: 70rem;
+  height: 90vw;
+  background-position: center;
+  width: 100%;
+}
+
+/* line 18 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/rei.styl */
+.womens-hub-mock {
+  background-image: url("../../assets/rei/womens-hub-hp.jpg");
+  max-height: 70rem;
+  height: 90vw;
+  background-position: center;
+  width: 100%;
+}
+
+/* line 25 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/rei.styl */
+.mbc-mock {
+  background-image: url("../../assets/rei/mbc-mock-img.jpg");
+  max-height: 70rem;
+  height: 50vw;
+  background-position: center;
+  width: 100%;
+}
+
+/* line 1 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/rei.styl */
+
+/* line 3 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/blue-nile.styl */
+
+/* line 4 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/blue-nile.styl */
+.pinterest-desktop-mock {
+  background-image: url("../../assets/blue-nile/pinterest-mockup-img.jpg");
+  max-height: 60rem;
+  height: 70vw;
+  background-position: center;
+  width: 100%;
+}
+
+/* line 38 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/galleries/blue-nile.styl */
 
 /* line 31 : /Users/stocky/Clients/Stocky/amstk/src/styl/widgets/contact.styl */
 

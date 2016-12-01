@@ -29,6 +29,9 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
+      
+    .item-two .two-up
+      width: 100%;
 
     .link-one
       flex-grow: 5;
@@ -72,6 +75,9 @@
       .item-one, .item-two
         width: 100%
         flex-grow: 1;
+        
+      .item-two .two-up .gallery-item
+        width: 100%;
 
       .link-one, .link-two, .client-logo-container
         flex-grow: 1;
@@ -97,8 +103,8 @@
         padding 2vh 0
 
 // image classes
-.microsoft-ignite-image
-  background-image: url('../../assets/gallery/microsoft-thumb.png');
+.rei-image
+  background-image: url('../../assets/gallery/rei.jpg');
 .outerwall-image
   background-image: url('../../assets/gallery/outerwall-thumb.png');
   height: 33rem;
@@ -106,14 +112,17 @@
   background-image: url('../../assets/gallery/leadership-thumb.png');
   background-position: center;
   height: 21rem;
-.frontier-image
-  background-image: url('../../assets/gallery/frontier-thumb.png');
+.blue-nile-image
+  background-image: url('../../assets/gallery/blue-nile.jpg');
   height: 47rem;
 .alpha-miami-image
   background-image: url('../../assets/gallery/mia-summit-thumb.png');
   height: 29rem;
 .microsoft-device-image
   background-image: url('../../assets/gallery/devices-thumb.png');
+  height: 18rem;
+.microsoft-ignite-image
+  background-image: url('../../assets/gallery/mic-ignite.jpg');
   height: 18rem;
 .alpha-monoco-image
   background-image: url('../../assets/gallery/mon-summit-thumb.png');
@@ -122,8 +131,9 @@
   background-image: url('../../assets/gallery/spevent-thumb.png');
   max-height: 20rem;
   height: 100vh;
-.portfolio-image
-  background-image: url('../../assets/gallery/asenn-thumb.png');
+.frontier-image
+  background-image: url('../../assets/gallery/frontier-thumb.jpg');
+  background-position: right top;
   max-height: 20rem;
   height: 100vh;
   width: 100%;
