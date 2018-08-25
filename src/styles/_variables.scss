@@ -1,0 +1,27 @@
+$surface-var: --surface;
+$surface-value: white;
+$surface: var($surface-var);
+
+$text-var: --text;
+$text-value: #4A4A4A;
+$text: var($text-var);
+
+$primary-var: --primary;
+$primary-value: #F7ECDA;
+$primary: var($primary-var);
+
+$secondary-var: --secondary;
+$secondary-value: #102B50;
+$secondary: var($secondary-var);
+
+$accent1-var: --accent1;
+$accent1-value: #EE2E24;
+$accent1: var($accent1-var);
+
+$accent2-var: --accent2;
+$accent2-value: #83DBAD;
+$accent2: var($accent2-var);
+
+$font-stack-var: --font-stack;
+$font-stack-value: 'Rokkitt', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+$font-stack: var($font-stack-var);

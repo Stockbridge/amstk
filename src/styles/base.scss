@@ -1,0 +1,15 @@
+@import './_variables';
+
+:root {
+    #{$surface-var}: $surface-value;
+    #{$text-var}: $text-value;
+    #{$primary-var}: $primary-value;
+    #{$secondary-var}: $secondary-value;
+    #{$accent1-var}: $accent1-value;
+    #{$accent2-var}: $accent2-value;
+    #{$font-stack-var}: $font-stack-value;
+}
+
+body {
+    font-family: $font-stack;
+}

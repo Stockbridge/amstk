@@ -14,21 +14,11 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-  box-sizing: border-box;
 	font-size: 100%;
 	font: inherit;
-  vertical-align: baseline;
+    vertical-align: baseline;
 }
 
-body {
-  font-family: 'Rokkitt', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
-}
-
-:root {
-  --surface: white;
-  --text: #4A4A4A;
-  --primary: #F7ECDA;
-  --secondary: #102B50;
-  --accent1: #EE2E24;
-  --accent2: #83DBAD; 
+* {
+    box-sizing: border-box;
 }
