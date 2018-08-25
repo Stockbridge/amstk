@@ -12,8 +12,9 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'Amanda Stockbridge' },
         { name: 'keywords', content: 'Amanda Stockbridge, design, designer, UI designer , UX Designer, visual design, graphic design, UI, UX, UI/UX, ' },
-      ]}
-    />
+      ]}>
+      <link href="https://fonts.googleapis.com/css?family=Rokkitt:300,400,700" rel="stylesheet" />
+    </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
     <div>
       {children()}
