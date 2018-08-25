@@ -1,11 +1,7 @@
 {
   "name": "amstk",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Amanda Stockbridge - Website",
-  "main": "index.html",
-  "scripts": {
-    "test": ""
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/Stockbridge/amstk.git"
@@ -15,16 +11,19 @@
   "bugs": {
     "url": "https://github.com/Stockbridge/amstk/issues"
   },
-  "homepage": "https://github.com/Stockbridge/amstk",
+  "dependencies": {
+    "gatsby": "^1.9.277",
+    "gatsby-link": "^1.6.46",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "react-helmet": "^5.2.0"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
-    "gulp": "~3.9.0",
-    "gulp-concat": "~2.6.0",
-    "gulp-uglify": "~1.2.0",
-    "gulp-handlebars": "~4.0.0",
-    "gulp-stylus": "~2.0.5",
-    "gulp-wrap": "~0.11.0",
-    "gulp-declare": "~0.3.0",
-    "nib": "~1.1.0",
-    "del": "~1.2.0"
+    "prettier": "^1.13.7"
   }
 }

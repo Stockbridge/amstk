@@ -1,7 +1,8 @@
-# Dependency directory
-/node_modules
-npm-debug.log
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
 
-# Sublime Files
-*.sublime-project
-*.sublime-workspace
+# Build directory
+/public
+.DS_Store
