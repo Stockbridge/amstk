@@ -19,13 +19,48 @@
     transition: opacity .2s ease-in;
 }
 
+.header-menu__link-list,
+.header-menu__menu {
+    display: flex;
+    flex-direction: column;
+}
+
 .header-menu__menu {
     background: $secondary;
     color: $primary;
+    display: flex;
     min-height: 100vh;
     min-width: 300px;
+    padding: 2rem;
     width: 50vw;
     transition: right .2s ease-in;
+}
+
+.header-menu__close-container {
+    text-align: right;
+}
+    
+.header-menu__link,
+.header-menu__work-link,
+.header-menu__close-button,
+.header-menu__open-button {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;    
+    }
+}
+
+.header-menu__link {
+    color: $primary;
+    font-size: 1.75rem;
+}
+
+.header-menu__work-link {
+    color: $accent2;
+    margin-bottom: .2rem;
+    margin-left: 2rem;
 }
 
 .header-menu__container {
