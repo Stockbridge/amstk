@@ -6,7 +6,8 @@ import './styles.scss';
 
 const Header = ({ siteTitle }) => (
   <header className="header">
-    <Link to="/">{siteTitle}</Link>
+    <Link to="/" className="header__logo">am.stk</Link>
+    <div className="header__subtitle">visual and user experience designer</div>
     <HeaderMenu></HeaderMenu>
   </header>
 )

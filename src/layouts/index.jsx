@@ -16,9 +16,9 @@ const Layout = ({ children, data }) => (
       <link href="https://fonts.googleapis.com/css?family=Rokkitt:300,400,700" rel="stylesheet" />
     </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
-    <div>
+    <section className="body">
       {children()}
-    </div>
+    </section>
   </div>
 )
 

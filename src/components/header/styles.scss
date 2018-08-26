@@ -1,5 +1,15 @@
 @import '../../styles/_variables.scss';
 
 .header {
-    background: orange;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    margin: 0 auto;
+    max-width: $page-width;
+}
+
+.header__subtitle {
+    flex-grow: 1;
+    padding: 1rem;
 }

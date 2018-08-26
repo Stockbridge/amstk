@@ -25,3 +25,7 @@ $accent2: var($accent2-var);
 $font-stack-var: --font-stack;
 $font-stack-value: 'Rokkitt', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 $font-stack: var($font-stack-var);
+
+$page-width-var: --page-width;
+$page-width-value: 1080px;
+$page-width: var($page-width-var);

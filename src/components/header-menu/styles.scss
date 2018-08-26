@@ -1,5 +1,11 @@
 @import '../../styles/_variables.scss';
 
+.header-menu__open-button,
+.header-menu__close-button {
+    display: inline-block;
+    padding: 1rem;
+}
+
 .header-menu__container,
 .header-menu__scrim {
     height: 100vh;
@@ -31,7 +37,6 @@
     display: flex;
     min-height: 100vh;
     min-width: 300px;
-    padding: 2rem;
     width: 50vw;
     transition: right .2s ease-in;
 }
@@ -45,11 +50,14 @@
 .header-menu__close-button,
 .header-menu__open-button {
     cursor: pointer;
-    display: inline-block;
     text-decoration: none;
     &:hover {
         text-decoration: underline;    
     }
+}
+
+.header-menu__link-list {
+    padding: 0 2rem;
 }
 
 .header-menu__link {
