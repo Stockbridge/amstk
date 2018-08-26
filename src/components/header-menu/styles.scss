@@ -1,0 +1,52 @@
+@import '../../styles/_variables.scss';
+
+.header-menu__container,
+.header-menu__scrim {
+    height: 100vh;
+    left: 0;
+    width: 100vw;
+}
+
+.header-menu__menu,
+.header-menu__container,
+.header-menu__scrim {
+    top: 0;
+    position: fixed;
+}
+
+.header-menu__scrim {
+    background: rgba(0,0,0,.3);
+    transition: opacity .2s ease-in;
+}
+
+.header-menu__menu {
+    background: $secondary;
+    color: $primary;
+    min-height: 100vh;
+    min-width: 300px;
+    width: 50vw;
+    transition: right .2s ease-in;
+}
+
+.header-menu__container {
+    visibility: hidden;
+    position: fixed;
+
+    .header-menu__scrim {
+        opacity: 0;
+    }
+    .header-menu__menu {
+        right: -50vw;
+    }
+}
+
+.header-menu__container--open {
+    visibility: visible;
+    
+    .header-menu__scrim {
+        opacity: 1;
+    }
+    .header-menu__menu {
+        right: 0;
+    }
+}
